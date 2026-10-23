@@ -1,14 +1,15 @@
-"""Generate text with a trained Wakil AI language model.
+"""Generate text with a trained Wakil AI language model (MLP or Transformer).
 
 Examples:
     python generate.py --prompt "ROMEO:"
     python generate.py --prompt "To be" --length 500 --temperature 0.5
+    python generate.py --model models/wakil_gpt.npz --prompt "ROMEO:"     # the Transformer
 """
 import argparse
 
 import numpy as np
 
-from wakil_ai.language_model import CharMLP
+from wakil_ai.language_model import load_language_model
 
 
 def main():
@@ -21,7 +22,7 @@ def main():
     parser.add_argument("--seed", type=int, default=None, help="fix it to get the same text every time")
     args = parser.parse_args()
 
-    model, tokenizer, metadata = CharMLP.load(args.model)
+    model, tokenizer, metadata = load_language_model(args.model)
     prompt_ids = tokenizer.encode(args.prompt.replace("\\n", "\n"))
     ids = model.generate(prompt_ids, args.length, np.random.default_rng(args.seed), args.temperature)
     print(tokenizer.decode(ids))

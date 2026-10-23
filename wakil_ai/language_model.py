@@ -169,3 +169,13 @@ def train_language_model(model, train_ids, val_ids, steps=20000, batch_size=128,
                 print(f"step {step:6d}/{steps} | lr {lr:.3f} | train loss {train_loss:.4f} "
                       f"| val loss {val_loss:.4f} | {time.time() - start:.0f}s")
     return history
+
+
+def load_language_model(path):
+    """Loads a CharMLP or a TinyGPT file. Returns (model, tokenizer, metadata)."""
+    with np.load(path) as data:
+        config = json.loads(str(data["config"]))
+    if "d_model" in config:
+        from .transformer import TinyGPT
+        return TinyGPT.load(path)
+    return CharMLP.load(path)

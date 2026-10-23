@@ -43,3 +43,14 @@ def get_batch(ids, context, batch_size, rng):
     X = ids[starts[:, None] + np.arange(context)]
     Y = ids[starts + context]
     return X, Y
+
+
+def get_sequence_batch(ids, context, batch_size, rng):
+    """For Transformers: X = `context` characters, Y = the same window shifted by one.
+
+    Y[:, t] is the character that follows X[:, :t+1], so one window gives
+    `context` training examples at once. Shapes: (batch_size, context) for both.
+    """
+    starts = rng.integers(0, len(ids) - context, size=batch_size)
+    positions = starts[:, None] + np.arange(context)
+    return ids[positions], ids[positions + 1]
