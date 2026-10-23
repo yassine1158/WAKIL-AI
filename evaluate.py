@@ -1,7 +1,7 @@
 """Evaluate a trained model on the 10,000 unseen MNIST test images.
 
 Example:
-    python evaluate.py --model models/yassine_ai_mnist.npz
+    python evaluate.py --model models/wakil_ai_mnist.npz
 """
 import argparse
 import json
@@ -12,17 +12,17 @@ matplotlib.use("Agg")
 import numpy as np
 from sklearn.metrics import classification_report, confusion_matrix
 
-from yassine_ai import YassineNet, evaluate, load_prepared_mnist
-from yassine_ai.plots import plot_confusion_matrix, plot_predictions
+from wakil_ai import WakilNet, evaluate, load_prepared_mnist
+from wakil_ai.plots import plot_confusion_matrix, plot_predictions
 
 
 def main():
-    parser = argparse.ArgumentParser(description="Evaluate Yassine AI on the MNIST test set.")
-    parser.add_argument("--model", default="models/yassine_ai_mnist.npz")
+    parser = argparse.ArgumentParser(description="Evaluate Wakil AI on the MNIST test set.")
+    parser.add_argument("--model", default="models/wakil_ai_mnist.npz")
     parser.add_argument("--plots-dir", default="outputs")
     args = parser.parse_args()
 
-    model, metadata = YassineNet.load(args.model)
+    model, metadata = WakilNet.load(args.model)
     data = load_prepared_mnist()
     X_test, y_test = data["X_test"], data["y_test"]
 

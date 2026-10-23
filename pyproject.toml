@@ -1,5 +1,5 @@
 [project]
-name = "yassine-ai"
+name = "wakil-ai"
 version = "0.2.0"
 description = "Neural networks implemented and trained from scratch with NumPy."
 readme = "README.md"

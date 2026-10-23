@@ -1,15 +1,19 @@
-# Yassine AI
+# Wakil AI
 
 [![tests](https://github.com/yassine1158/WAKIL-AI/actions/workflows/tests.yml/badge.svg)](https://github.com/yassine1158/WAKIL-AI/actions/workflows/tests.yml)
-[![Open Phase 2 in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/yassine1158/WAKIL-AI/blob/main/notebooks/02_phase2_project_and_overfitting.ipynb)
 
 **Neural networks implemented and trained from scratch with NumPy** — no PyTorch, no TensorFlow, no pretrained weights, no AI API.
 
-Yassine AI is a learning project that builds AI step by step, from a single neural network up to a small language model. Every part of the learning process (forward pass, loss, backpropagation, gradient descent) is written by hand and verified by tests.
+Wakil AI is a learning project that builds AI step by step, from a single neural network up to a small language model. Every part of the learning process (forward pass, loss, backpropagation, gradient descent) is written by hand and verified by tests.
+
+| Notebook | |
+|---|---|
+| Phase 1 — neural network from scratch, step by step | [![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/yassine1158/WAKIL-AI/blob/main/notebooks/01_phase1_neural_network_from_scratch.ipynb) |
+| Phase 2 — the project + overfitting lab | [![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/yassine1158/WAKIL-AI/blob/main/notebooks/02_phase2_project_and_overfitting.ipynb) |
 
 | | |
 |---|---|
-| ✅ Neural network **implemented from scratch** | All the math in NumPy (`yassine_ai/model.py`) |
+| ✅ Neural network **implemented from scratch** | All the math in NumPy (`wakil_ai/model.py`) |
 | ✅ Model **trained from scratch** | Random initial weights, learns only from MNIST |
 | ❌ Fine-tuning a pretrained model | Not used |
 | ❌ External AI API (ChatGPT, Claude, …) | Not used |
@@ -29,16 +33,18 @@ Reproduce with `python train.py && python evaluate.py` (seed 42 gives these exac
 ## Quick start
 
 ### Option 1 — Google Colab (nothing to install, works on a phone)
-Click **Open in Colab** above, then **Runtime → Run all**.
+Click an **Open in Colab** badge in the table above, then **Runtime → Run all**.
 
-### Option 2 — Your computer
+### Option 2 — Your computer (Python 3.9+ and Git)
 ```bash
 git clone https://github.com/yassine1158/WAKIL-AI.git
 cd WAKIL-AI
+python -m venv .venv
+# Windows: .venv\Scripts\activate      macOS/Linux: source .venv/bin/activate
 pip install -r requirements.txt
 
 python -m pytest              # 15 tests, < 1 second
-python train.py               # downloads MNIST (11 MB) once, trains, saves models/yassine_ai_mnist.npz
+python train.py               # downloads MNIST (11 MB) once, trains, saves models/wakil_ai_mnist.npz
 python evaluate.py            # test accuracy + figures in outputs/
 python predict.py --test-index 0 1 2
 python predict.py --image my_digit.jpg
@@ -67,10 +73,10 @@ python train.py --train-limit 1000 --epochs 150
 
 ```
 WAKIL-AI/
-├── yassine_ai/               # the library
+├── wakil_ai/               # the library
 │   ├── activations.py        # ReLU, softmax
 │   ├── losses.py             # cross-entropy
-│   ├── model.py              # YassineNet: init, forward, backward, update, save/load
+│   ├── model.py              # WakilNet: init, forward, backward, update, save/load
 │   ├── trainer.py            # mini-batch training loop, L2, early stopping
 │   ├── data.py               # MNIST download, preprocessing, train/val split
 │   ├── image.py              # photo -> MNIST format (28x28, white on black, centered)

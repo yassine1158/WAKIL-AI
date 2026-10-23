@@ -1,11 +1,11 @@
 """Gradient check: compares backpropagation with numerical derivatives.
 
-If these tests fail, YassineNet.backward() has a bug.
+If these tests fail, WakilNet.backward() has a bug.
 """
 import numpy as np
 import pytest
 
-from yassine_ai import YassineNet, cross_entropy, one_hot
+from wakil_ai import WakilNet, cross_entropy, one_hot
 
 
 def total_loss(model, X, Y, weight_decay):
@@ -16,7 +16,7 @@ def total_loss(model, X, Y, weight_decay):
 @pytest.mark.parametrize("weight_decay", [0.0, 0.1])
 def test_backward_matches_numerical_gradient(layer_sizes, weight_decay, eps=1e-5):
     rng = np.random.default_rng(0)
-    model = YassineNet(layer_sizes, seed=1, dtype=np.float64)
+    model = WakilNet(layer_sizes, seed=1, dtype=np.float64)
     X = rng.standard_normal((7, layer_sizes[0]))
     Y = one_hot(rng.integers(0, layer_sizes[-1], size=7), layer_sizes[-1]).astype(np.float64)
 

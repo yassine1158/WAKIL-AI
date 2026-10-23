@@ -3,7 +3,7 @@ import numpy as np
 import matplotlib.pyplot as plt
 
 
-def plot_history(history, path=None, title="Yassine AI training"):
+def plot_history(history, path=None, title="Wakil AI training"):
     fig, axes = plt.subplots(1, 3, figsize=(17, 4.5))
     epochs = range(1, len(history["train_loss"]) + 1)
 

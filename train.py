@@ -1,4 +1,4 @@
-"""Train Yassine AI on MNIST.
+"""Train Wakil AI on MNIST.
 
 Examples:
     python train.py
@@ -12,12 +12,12 @@ import time
 import matplotlib
 matplotlib.use("Agg")  # save figures to files, no window needed
 
-from yassine_ai import TrainConfig, YassineNet, load_prepared_mnist, train
-from yassine_ai.plots import plot_history
+from wakil_ai import TrainConfig, WakilNet, load_prepared_mnist, train
+from wakil_ai.plots import plot_history
 
 
 def parse_args():
-    parser = argparse.ArgumentParser(description="Train the Yassine AI digit classifier (NumPy only).")
+    parser = argparse.ArgumentParser(description="Train the Wakil AI digit classifier (NumPy only).")
     parser.add_argument("--hidden", type=int, nargs="+", default=[128],
                         help="hidden layer sizes, e.g. --hidden 256 128 (default: 128)")
     parser.add_argument("--lr", type=float, default=0.1, help="learning rate (default: 0.1)")
@@ -29,7 +29,7 @@ def parse_args():
     parser.add_argument("--train-limit", type=int, default=None,
                         help="train on only the first N images (to study overfitting)")
     parser.add_argument("--seed", type=int, default=42)
-    parser.add_argument("--out", default="models/yassine_ai_mnist.npz", help="where to save the model")
+    parser.add_argument("--out", default="models/wakil_ai_mnist.npz", help="where to save the model")
     parser.add_argument("--plots-dir", default="outputs")
     return parser.parse_args()
 
@@ -43,7 +43,7 @@ def main():
     print(f"Train: {data['X_train'].shape}  Validation: {data['X_val'].shape}  "
           f"(the test set is NOT used here; run evaluate.py for that)")
 
-    model = YassineNet(layer_sizes=(784, *args.hidden, 10), seed=args.seed)
+    model = WakilNet(layer_sizes=(784, *args.hidden, 10), seed=args.seed)
     print(f"Architecture: {' -> '.join(map(str, model.layer_sizes))} | "
           f"{model.num_parameters():,} parameters | config: {config.to_dict()}")
 
@@ -54,7 +54,7 @@ def main():
     os.makedirs(os.path.dirname(args.out) or ".", exist_ok=True)
     os.makedirs(args.plots_dir, exist_ok=True)
     metadata = {
-        "name": "Yassine AI - MNIST digit classifier",
+        "name": "Wakil AI - MNIST digit classifier",
         "architecture": " -> ".join(map(str, model.layer_sizes)),
         "parameters": model.num_parameters(),
         "config": config.to_dict(),

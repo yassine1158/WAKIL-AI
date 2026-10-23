@@ -1,4 +1,4 @@
-"""YassineNet: a fully connected neural network written with NumPy only.
+"""WakilNet: a fully connected neural network written with NumPy only.
 
 Architecture (default): 784 -> 128 (ReLU) -> 10 (softmax).
 Any number of hidden layers is supported, e.g. layer_sizes=(784, 256, 128, 10).
@@ -17,7 +17,7 @@ import numpy as np
 from .activations import relu, relu_derivative, softmax
 
 
-class YassineNet:
+class WakilNet:
 
     def __init__(self, layer_sizes=(784, 128, 10), seed=42, dtype=np.float32):
         if len(layer_sizes) < 2:

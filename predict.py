@@ -1,4 +1,4 @@
-"""Predict the digit in an image with a trained Yassine AI model.
+"""Predict the digit in an image with a trained Wakil AI model.
 
 Examples:
     python predict.py --image my_digit.png
@@ -8,7 +8,7 @@ import argparse
 
 import numpy as np
 
-from yassine_ai import YassineNet
+from wakil_ai import WakilNet
 
 
 def predict_digit(model, image):
@@ -22,21 +22,21 @@ def predict_digit(model, image):
 
 
 def main():
-    parser = argparse.ArgumentParser(description="Predict a handwritten digit with Yassine AI.")
-    parser.add_argument("--model", default="models/yassine_ai_mnist.npz")
+    parser = argparse.ArgumentParser(description="Predict a handwritten digit with Wakil AI.")
+    parser.add_argument("--model", default="models/wakil_ai_mnist.npz")
     source = parser.add_mutually_exclusive_group(required=True)
     source.add_argument("--image", nargs="+", help="path(s) to image files (photo or scan of a digit)")
     source.add_argument("--test-index", type=int, nargs="+", help="index(es) in the MNIST test set (0-9999)")
     args = parser.parse_args()
 
-    model, _ = YassineNet.load(args.model)
+    model, _ = WakilNet.load(args.model)
 
     if args.image:
         from PIL import Image
-        from yassine_ai.image import image_to_mnist_format
+        from wakil_ai.image import image_to_mnist_format
         inputs = [(path, image_to_mnist_format(Image.open(path)), None) for path in args.image]
     else:
-        from yassine_ai.data import load_mnist
+        from wakil_ai.data import load_mnist
         _, _, x_test, y_test = load_mnist()
         inputs = [(f"test image #{i}", x_test[i], int(y_test[i])) for i in args.test_index]
 
