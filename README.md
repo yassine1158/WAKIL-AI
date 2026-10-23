@@ -28,7 +28,7 @@ Digit classifier `784 → 128 (ReLU) → 10 (softmax)`, 101,770 parameters, trai
 | Validation | 10,000 | 97.74% |
 | **Test (never seen during training)** | **10,000** | **97.78%** |
 
-Reproduce with `python train.py && python evaluate.py` (seed 42 gives these exact numbers).
+Reproduce with `python train.py && python evaluate.py` (seed 42 gives the same results on every run; on another computer the last decimals can differ slightly, e.g. 97.76% instead of 97.78% on Windows).
 
 ## Quick start
 
