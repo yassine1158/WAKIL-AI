@@ -8,3 +8,5 @@ data/
 outputs/
 models/*.npz
 !models/.gitkeep
+.gradio/
+flagged/

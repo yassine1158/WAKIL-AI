@@ -12,6 +12,7 @@ Wakil AI is a learning project that builds AI step by step, from a single neural
 | Phase 2 — the project + overfitting lab | [![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/yassine1158/WAKIL-AI/blob/main/notebooks/02_phase2_project_and_overfitting.ipynb) |
 | Phase 3 — a character-level language model (tokenizer, embeddings, generation) | [![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/yassine1158/WAKIL-AI/blob/main/notebooks/03_phase3_character_language_model.ipynb) |
 | Phase 3, part 2 — a Transformer from scratch (self-attention, LayerNorm, Adam) | [![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/yassine1158/WAKIL-AI/blob/main/notebooks/04_phase3_transformer_from_scratch.ipynb) |
+| Phase 4 — the Wakil AI app: draw a digit, generate text (public link from Colab) | [![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/yassine1158/WAKIL-AI/blob/main/notebooks/05_phase4_app.ipynb) |
 
 | | |
 |---|---|
@@ -19,6 +20,21 @@ Wakil AI is a learning project that builds AI step by step, from a single neural
 | ✅ Model **trained from scratch** | Random initial weights, learns only from MNIST |
 | ❌ Fine-tuning a pretrained model | Not used |
 | ❌ External AI API (ChatGPT, Claude, …) | Not used |
+
+## The app
+
+```bash
+pip install -r requirements-app.txt     # adds Gradio, used only for the interface
+python app.py                           # http://127.0.0.1:7860   (python app.py --share for a public link)
+```
+
+| Tab | What it does |
+|---|---|
+| ✍️ Read a digit | Draw a digit with the mouse (click 🖌️ Brush first); see the prediction, the probabilities, and the 28×28 image the model actually sees |
+| 💬 Write text | Type a beginning; pick the model (Transformer or MLP), length and temperature; Wakil AI continues it |
+| ℹ️ Models | Size, accuracy and loss of the trained models |
+
+The interface (`app.py`) only calls `wakil_ai/service.py`, which holds the application logic and is tested without any UI (`tests/test_service.py`). Drawings go through the same preprocessing as MNIST (crop, 20×20 box, centered by center of mass); on MNIST test digits rendered as 280×280 drawings, this pipeline keeps 98.1% accuracy. Real mouse drawings look different from MNIST, so expect more mistakes on them.
 
 ## Results
 
@@ -73,7 +89,7 @@ python -m venv .venv
 # Windows: .venv\Scripts\activate      macOS/Linux: source .venv/bin/activate
 pip install -r requirements.txt
 
-python -m pytest              # 32 tests, ~2 seconds
+python -m pytest              # 39 tests, ~2 seconds
 python train.py               # downloads MNIST (11 MB) once, trains, saves models/wakil_ai_mnist.npz
 python evaluate.py            # test accuracy + figures in outputs/
 python predict.py --test-index 0 1 2
@@ -84,6 +100,9 @@ python generate.py --prompt "ROMEO:"
 
 python train_lm.py --arch transformer                  # TinyGPT (~3-8 min on a CPU)
 python generate.py --model models/wakil_gpt.npz --prompt "ROMEO:"
+
+pip install -r requirements-app.txt
+python app.py                 # the Wakil AI app in your browser
 ```
 
 ## Usage
@@ -112,6 +131,7 @@ python generate.py --model models/wakil_lm.npz --prompt "To be" --length 500 --t
 | `predict.py` | Predicts digits from image files or MNIST test indexes | Printed predictions with top-3 probabilities |
 | `train_lm.py` | Trains a character language model (`--arch mlp` or `transformer`), compares it with a bigram baseline | `models/wakil_lm.npz` or `models/wakil_gpt.npz`, training curves, a text sample |
 | `generate.py` | Writes text from a prompt with either model; `--temperature` controls creativity | Generated text |
+| `app.py` | The Wakil AI web app (Gradio) using all trained models | Runs at http://127.0.0.1:7860 |
 
 ## Project structure
 
@@ -128,15 +148,18 @@ WAKIL-AI/
 │   ├── tokenizer.py          # character tokenizer: text <-> ids
 │   ├── text_data.py          # text download, contiguous split, random context windows
 │   ├── language_model.py     # bigram baseline, CharMLP with embeddings, training, generation
-│   └── transformer.py        # TinyGPT: attention, LayerNorm, blocks, Adam (forward + backward)
+│   ├── transformer.py        # TinyGPT: attention, LayerNorm, blocks, Adam (forward + backward)
+│   └── service.py            # app logic: load models, read a drawing, write text (no UI code)
 ├── train.py  evaluate.py  predict.py
 ├── train_lm.py  generate.py
+├── app.py                    # the interface only (Gradio)
 ├── tests/                    # gradient checks + behaviour tests (run by GitHub Actions)
 └── notebooks/
     ├── 01_phase1_neural_network_from_scratch.ipynb   # step-by-step tutorial
     ├── 02_phase2_project_and_overfitting.ipynb       # using the project + overfitting lab
     ├── 03_phase3_character_language_model.ipynb      # tokenizer, bigram, embeddings, text generation
-    └── 04_phase3_transformer_from_scratch.ipynb      # attention by hand, TinyGPT, attention heatmaps
+    ├── 04_phase3_transformer_from_scratch.ipynb      # attention by hand, TinyGPT, attention heatmaps
+    └── 05_phase4_app.ipynb                           # train everything and launch the app
 ```
 
 ## How it works
@@ -181,7 +204,7 @@ With little data the model memorizes (100% train) and validation loss climbs bac
 - [x] **Phase 2** — clean project: package, CLI scripts, tests, CI, overfitting study
 - [x] **Phase 3, part 1** — character-level language model: tokenizer, bigram, embeddings, generation
 - [x] **Phase 3, part 2** — a small Transformer (self-attention) from scratch
-- [ ] **Phase 4** — a simple app to use the trained models
+- [x] **Phase 4** — the Wakil AI app (draw a digit, generate text, model info)
 
 ## License
 
