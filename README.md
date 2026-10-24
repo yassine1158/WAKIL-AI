@@ -65,6 +65,21 @@ python autolearn.py --rounds 8   # or a fixed number of rounds
 
 What does **not** work (we tested it): learning from its own confident answers (*self-training*). On 300 rotated digits, 42 of the 131 drawings it was ≥95% sure about were wrong, and accuracy didn't improve: "confident" doesn't mean "correct", and learning from its own mistakes only reinforces them. Learning something new always needs new information: real data, labels, or transformations that are guaranteed to keep the right answer.
 
+## Wakil Brain: Wakil AI inside the Wakil WhatsApp agent
+
+`train_intent.py` builds **Wakil Brain**, a small intent model (2048 → 32 → 4, 65,700 parameters) for the [Wakil WhatsApp](https://github.com/yassine1158/Projet_wakil_whatsapp_buss) sales agent. From the agent's last message and the customer's message it predicts the next action: **answer**, **hand over to a human**, **record the order**, or **send a product photo**.
+
+```bash
+python datasets/build_intent_seed.py                 # 640 synthetic starter examples (SICAR, SANA)
+python train_intent.py                               # -> models/wakil_brain.json
+python train_intent.py --teacher brain-samples.json --out ../Projet_wakil_whatsapp_buss/src/brain-model.json
+```
+
+- Text → numbers with the **hashing trick** (words and 3-letter pieces hashed with FNV-1a into 2,048 slots): no vocabulary file, and misspellings still share pieces with known words. `wakil_ai/intent.py` and the agent's `src/brain.ts` implement exactly the same steps; the exported file carries test cases that check both give the same probabilities.
+- In the agent it runs in **shadow mode**: after each real reply, its prediction is compared with what Claude actually did (which tool it called) and saved, but it never changes what the customer receives.
+- **Distillation:** the app exports those real messages with Claude's action as the label (`--teacher`). Claude is the teacher, Wakil Brain the student, and every retraining uses more real data.
+- First version: 99.2% on held-out *synthetic* examples (optimistic, same templates) and 11/12 on new hand-written sentences. It missed "votre camion a cassé mon portail" (a complaint). Its real level is the agreement with Claude measured on real conversations.
+
 ## Results
 
 ### Digit classifier
@@ -118,7 +133,7 @@ python -m venv .venv
 # Windows: .venv\Scripts\activate      macOS/Linux: source .venv/bin/activate
 pip install -r requirements.txt
 
-python -m pytest              # 46 tests, ~3 seconds
+python -m pytest              # 50 tests, ~3 seconds
 python train.py               # downloads MNIST (11 MB) once, trains, saves models/wakil_ai_mnist.npz
 python evaluate.py            # test accuracy + figures in outputs/
 python predict.py --test-index 0 1 2
@@ -181,11 +196,14 @@ WAKIL-AI/
 │   ├── transformer.py        # TinyGPT: attention, LayerNorm, blocks, Adam (forward + backward)
 │   ├── service.py            # app logic: load models, read a drawing, write text, teach (no UI code)
 │   ├── continual.py          # continual learning from corrections: replay + safety check
-│   └── autopilot.py          # self-improvement: self-made digit examples, text re-reading, safe saving
+│   ├── autopilot.py          # self-improvement: self-made digit examples, text re-reading, safe saving
+│   └── intent.py             # Wakil Brain: hashed text features, export for the WhatsApp agent
 ├── train.py  evaluate.py  predict.py
 ├── train_lm.py  generate.py
 ├── app.py                    # the interface only (Gradio)
 ├── autolearn.py              # the autopilot loop
+├── train_intent.py           # trains Wakil Brain (intent model) and exports it as JSON
+├── datasets/                 # synthetic starter examples for Wakil Brain
 ├── tests/                    # gradient checks + behaviour tests (run by GitHub Actions)
 └── notebooks/
     ├── 01_phase1_neural_network_from_scratch.ipynb   # step-by-step tutorial

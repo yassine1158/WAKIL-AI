@@ -1,0 +1,640 @@
+{"context": "Nous livrons à Abobo et dans tout Abidjan.", "text": "faites un prix, je prends beaucoup", "label": "humain", "source": "synthetic"}
+{"context": "Récapitulatif : 100 kg de poussins chair, livraison à Anyama. Confirmez-vous cette commande ?", "text": "parfait enregistrez", "label": "commande", "source": "synthetic"}
+{"context": "Je résume : 20 sacs de aliment poussin démarrage, enlèvement sur site. C'est bon pour vous ?", "text": "Oui merci", "label": "commande", "source": "synthetic"}
+{"context": "Nous livrons à Cocody et dans tout Abidjan.", "text": "appelez-moi s'il vous plaît", "label": "humain", "source": "synthetic"}
+{"context": "Le aliment poussin démarrage est vendu sur devis, l'équipe confirme le prix et le transport.", "text": "J'ai un problème avec ma facture", "label": "humain", "source": "synthetic"}
+{"context": "Votre demande : 30 m3 de sable de mer livrés à Angré. Je l'enregistre ?", "text": "c'est parfait", "label": "commande", "source": "synthetic"}
+{"context": "Votre demande : 10 sacs de concentré volaille livrés à Koumassi. Je l'enregistre ?", "text": "Livraison possible demain ?", "label": "reponse", "source": "synthetic"}
+{"context": "", "text": "envoie moi l'image du aliment poussin démarrage", "label": "photo", "source": "synthetic"}
+{"context": "Je résume : 20 sacs de tout-venant, enlèvement sur site. C'est bon pour vous ?", "text": "c'est bon", "label": "commande", "source": "synthetic"}
+{"context": "Récapitulatif : 2 tonnes de aliment croissance, livraison à Koumassi. Confirmez-vous cette commande ?", "text": "C'est ok", "label": "commande", "source": "synthetic"}
+{"context": "Pour quelle quantité et quel lieu de livraison ?", "text": "je veux faire une réclamation sur la commande", "label": "humain", "source": "synthetic"}
+{"context": "Je résume : 100 kg de moellons, enlèvement sur site. C'est bon pour vous ?", "text": "Ajoutez 2 tonnes de latérite", "label": "reponse", "source": "synthetic"}
+{"context": "Nous livrons à Bassam et dans tout Abidjan.", "text": "il ressemble à quoi le aliment porc ?", "label": "photo", "source": "synthetic"}
+{"context": "Bonjour ! Je suis l'assistant de l'entreprise. Comment puis-je vous aider ?", "text": "photo du aliment croissance svp..", "label": "photo", "source": "synthetic"}
+{"context": "Nous livrons à Cocody et dans tout Abidjan.", "text": "envoyez la photo du aliment ponte", "label": "photo", "source": "synthetic"}
+{"context": "", "text": "Il ressemble à quoi le aliment porc ?", "label": "photo", "source": "synthetic"}
+{"context": "Pour quelle quantité et quel lieu de livraison ?", "text": "je peux voir le gravier 15/25..", "label": "photo", "source": "synthetic"}
+{"context": "Nous livrons à Abobo et dans tout Abidjan.", "text": "vous êtes un robot ? je veux un humain", "label": "humain", "source": "synthetic"}
+{"context": "Donc un camion de sable de mer pour Bassam. Vous confirmez ?", "text": "ok confirmé", "label": "commande", "source": "synthetic"}
+{"context": "Bonjour ! Je suis l'assistant de l'entreprise. Comment puis-je vous aider ?", "text": "vous pouvez m'envoyer une photo ?", "label": "photo", "source": "synthetic"}
+{"context": "Pour quelle quantité et quel lieu de livraison ?", "text": "réclamation ?", "label": "humain", "source": "synthetic"}
+{"context": "Le poussins chair est vendu sur devis, l'équipe confirme le prix et le transport.", "text": "vous êtes où ?", "label": "reponse", "source": "synthetic"}
+{"context": "Pour quelle quantité et quel lieu de livraison ?", "text": "Il ressemble à quoi le moellons ?", "label": "photo", "source": "synthetic"}
+{"context": "Nous livrons à Koumassi et dans tout Abidjan.", "text": "je veux un responsable", "label": "humain", "source": "synthetic"}
+{"context": "", "text": "rappelez-moi au plus vite", "label": "humain", "source": "synthetic"}
+{"context": "Bonjour ! Je suis l'assistant de l'entreprise. Comment puis-je vous aider ?", "text": "merci svp", "label": "reponse", "source": "synthetic"}
+{"context": "Votre demande : 2 tonnes de aliment poussin démarrage livrés à Angré. Je l'enregistre ?", "text": "c'est parfait svp", "label": "commande", "source": "synthetic"}
+{"context": "Votre demande : 100 kg de gravier 5/15 livrés à Cocody. Je l'enregistre ?", "text": "d'accord je valide", "label": "commande", "source": "synthetic"}
+{"context": "Bonjour ! Je suis l'assistant de l'entreprise. Comment puis-je vous aider ?", "text": "je veux parler à quelqu'un", "label": "humain", "source": "synthetic"}
+{"context": "Donc 30 m3 de aliment croissance pour Abobo. Vous confirmez ?", "text": "je confirme la commande", "label": "commande", "source": "synthetic"}
+{"context": "Bonjour ! Je suis l'assistant de l'entreprise. Comment puis-je vous aider ?", "text": "il ressemble à quoi le latérite ?", "label": "photo", "source": "synthetic"}
+{"context": "Nous livrons à Yopougon et dans tout Abidjan.", "text": "je peux voir le poussins de ponte svp", "label": "photo", "source": "synthetic"}
+{"context": "Pour quelle quantité et quel lieu de livraison ?", "text": "photo du aliment ponte svp", "label": "photo", "source": "synthetic"}
+{"context": "Le sable est vendu sur devis, l'équipe confirme le prix et le transport.", "text": "envoie moi l'image du sable", "label": "photo", "source": "synthetic"}
+{"context": "Pour quelle quantité et quel lieu de livraison ?", "text": "faites un prix, je prends beaucoup", "label": "humain", "source": "synthetic"}
+{"context": "Bonjour ! Je suis l'assistant de l'entreprise. Comment puis-je vous aider ?", "text": "livraison possible demain ?", "label": "reponse", "source": "synthetic"}
+{"context": "Le moellons est vendu sur devis, l'équipe confirme le prix et le transport.", "text": "Personne ne répond, c'est inadmissible", "label": "humain", "source": "synthetic"}
+{"context": "Le aliment poussin démarrage est vendu sur devis, l'équipe confirme le prix et le transport.", "text": "envoie moi l'image du aliment ponte", "label": "photo", "source": "synthetic"}
+{"context": "Votre demande : 500 poussins de gravier 5/15 livrés à Abobo. Je l'enregistre ?", "text": "oui", "label": "commande", "source": "synthetic"}
+{"context": "Je résume : 500 poussins de gravier 15/25, enlèvement sur site. C'est bon pour vous ?", "text": "c'est ok", "label": "commande", "source": "synthetic"}
+{"context": "Bonjour ! Je suis l'assistant de l'entreprise. Comment puis-je vous aider ?", "text": "Je veux voir à quoi ressemble le concentré volaille", "label": "photo", "source": "synthetic"}
+{"context": "Votre demande : 2 tonnes de gravier 5/15 livrés à Koumassi. Je l'enregistre ?", "text": "ok c'est bon pour moi", "label": "commande", "source": "synthetic"}
+{"context": "Pour quelle quantité et quel lieu de livraison ?", "text": "envoie moi l'image du latérite", "label": "photo", "source": "synthetic"}
+{"context": "Le aliment poussin démarrage est vendu sur devis, l'équipe confirme le prix et le transport.", "text": "je peux voir le aliment croissance ?", "label": "photo", "source": "synthetic"}
+{"context": "Pour quelle quantité et quel lieu de livraison ?", "text": "vous êtes un robot ? je veux un humain..", "label": "humain", "source": "synthetic"}
+{"context": "", "text": "photo du gravier 15/25 svp", "label": "photo", "source": "synthetic"}
+{"context": "Pour quelle quantité et quel lieu de livraison ?", "text": "ok merci pour l'info", "label": "reponse", "source": "synthetic"}
+{"context": "", "text": "Montrez-moi le poussins chair", "label": "photo", "source": "synthetic"}
+{"context": "Donc un camion de poussins chair pour Anyama. Vous confirmez ?", "text": "Vous livrez à marcory !", "label": "reponse", "source": "synthetic"}
+{"context": "Je résume : 30 m3 de poussins chair, enlèvement sur site. C'est bon pour vous ?", "text": "On est ensemble !", "label": "commande", "source": "synthetic"}
+{"context": "Je résume : 30 m3 de sable de mer, enlèvement sur site. C'est bon pour vous ?", "text": "non changez le lieu, c'est à Koumassi", "label": "reponse", "source": "synthetic"}
+{"context": "Le gravier 15/25 est vendu sur devis, l'équipe confirme le prix et le transport.", "text": "je veux faire une réclamation sur la commande", "label": "humain", "source": "synthetic"}
+{"context": "Bonjour ! Je suis l'assistant de l'entreprise. Comment puis-je vous aider ?", "text": "Passez-moi un conseiller", "label": "humain", "source": "synthetic"}
+{"context": "Votre demande : 10 sacs de aliment croissance livrés à Bingerville. Je l'enregistre ?", "text": "C'est ok", "label": "commande", "source": "synthetic"}
+{"context": "Donc 20 sacs de poussins chair pour Anyama. Vous confirmez ?", "text": "c'est bon dêh", "label": "commande", "source": "synthetic"}
+{"context": "Le aliment croissance est vendu sur devis, l'équipe confirme le prix et le transport.", "text": "je veux voir à quoi ressemble le moellons..", "label": "photo", "source": "synthetic"}
+{"context": "Pour quelle quantité et quel lieu de livraison ?", "text": "Merci", "label": "reponse", "source": "synthetic"}
+{"context": "Bonjour ! Je suis l'assistant de l'entreprise. Comment puis-je vous aider ?", "text": "Je veux voir à quoi ressemble le aliment porc ?", "label": "photo", "source": "synthetic"}
+{"context": "", "text": "je peux voir le sable ?", "label": "photo", "source": "synthetic"}
+{"context": "", "text": "je peux voir le poussins de ponte ?", "label": "photo", "source": "synthetic"}
+{"context": "Bonjour ! Je suis l'assistant de l'entreprise. Comment puis-je vous aider ?", "text": "avez-vous du concentré volaille ?", "label": "reponse", "source": "synthetic"}
+{"context": "Bonjour ! Je suis l'assistant de l'entreprise. Comment puis-je vous aider ?", "text": "montre le produit stp merci", "label": "photo", "source": "synthetic"}
+{"context": "", "text": "montre le produit stp", "label": "photo", "source": "synthetic"}
+{"context": "Nous livrons à Angré et dans tout Abidjan.", "text": "envoyez la photo du gravier 15/25", "label": "photo", "source": "synthetic"}
+{"context": "Pour quelle quantité et quel lieu de livraison ?", "text": "je veux 5 voyages de aliment poussin démarrage", "label": "reponse", "source": "synthetic"}
+{"context": "Nous livrons à Bingerville et dans tout Abidjan.", "text": "Quels sont vos horaires ?", "label": "reponse", "source": "synthetic"}
+{"context": "Nous livrons à Abobo et dans tout Abidjan.", "text": "je construis une maison, que me conseillez-vous ?", "label": "reponse", "source": "synthetic"}
+{"context": "Le moellons est vendu sur devis, l'équipe confirme le prix et le transport.", "text": "rappelez-moi au plus vite", "label": "humain", "source": "synthetic"}
+{"context": "Je résume : 100 kg de aliment poussin démarrage, enlèvement sur site. C'est bon pour vous ?", "text": "c'est bon", "label": "commande", "source": "synthetic"}
+{"context": "Bonjour ! Je suis l'assistant de l'entreprise. Comment puis-je vous aider ?", "text": "c'est trop cher, on peut négocier !", "label": "humain", "source": "synthetic"}
+{"context": "Nous livrons à Cocody et dans tout Abidjan.", "text": "je construis une maison, que me conseillez-vous ?", "label": "reponse", "source": "synthetic"}
+{"context": "Récapitulatif : 20 sacs de poussins chair, livraison à Koumassi. Confirmez-vous cette commande ?", "text": "oui go", "label": "commande", "source": "synthetic"}
+{"context": "Bonjour ! Je suis l'assistant de l'entreprise. Comment puis-je vous aider ?", "text": "passez-moi un conseiller", "label": "humain", "source": "synthetic"}
+{"context": "Votre demande : 30 m3 de aliment poussin démarrage livrés à Anyama. Je l'enregistre ?", "text": "c'est parfait", "label": "commande", "source": "synthetic"}
+{"context": "Le aliment porc est vendu sur devis, l'équipe confirme le prix et le transport.", "text": "envoie moi l'image du aliment ponte", "label": "photo", "source": "synthetic"}
+{"context": "Bonjour ! Je suis l'assistant de l'entreprise. Comment puis-je vous aider ?", "text": "je construis une maison, que me conseillez-vous ?", "label": "reponse", "source": "synthetic"}
+{"context": "Récapitulatif : 30 m3 de latérite, livraison à Marcory. Confirmez-vous cette commande ?", "text": "oui allez-y", "label": "commande", "source": "synthetic"}
+{"context": "Pour quelle quantité et quel lieu de livraison ?", "text": "vous pouvez m'envoyer une photo ?", "label": "photo", "source": "synthetic"}
+{"context": "Le aliment poussin démarrage est vendu sur devis, l'équipe confirme le prix et le transport.", "text": "j'ai un problème avec ma facture", "label": "humain", "source": "synthetic"}
+{"context": "Le latérite est vendu sur devis, l'équipe confirme le prix et le transport.", "text": "Je veux faire une réclamation sur la commande", "label": "humain", "source": "synthetic"}
+{"context": "Donc 30 m3 de sable de mer pour Bassam. Vous confirmez ?", "text": "ok confirmé", "label": "commande", "source": "synthetic"}
+{"context": "Donc 2 tonnes de gravier 15/25 pour Abobo. Vous confirmez ?", "text": "d'accord ?", "label": "commande", "source": "synthetic"}
+{"context": "", "text": "passez-moi un conseiller !", "label": "humain", "source": "synthetic"}
+{"context": "Le tout-venant est vendu sur devis, l'équipe confirme le prix et le transport.", "text": "passez-moi un conseiller merci", "label": "humain", "source": "synthetic"}
+{"context": "Nous livrons à Yopougon et dans tout Abidjan.", "text": "vous avez une photo du moellons ?", "label": "photo", "source": "synthetic"}
+{"context": "", "text": "Vous avez une photo du aliment poussin démarrage..", "label": "photo", "source": "synthetic"}
+{"context": "Pour quelle quantité et quel lieu de livraison ?", "text": "bonjour", "label": "reponse", "source": "synthetic"}
+{"context": "Je résume : 500 poussins de aliment poussin démarrage, enlèvement sur site. C'est bon pour vous ?", "text": "Ok merci pour l'info", "label": "reponse", "source": "synthetic"}
+{"context": "", "text": "ajoutez 100 kg de aliment croissance", "label": "reponse", "source": "synthetic"}
+{"context": "Bonjour ! Je suis l'assistant de l'entreprise. Comment puis-je vous aider ?", "text": "Je construis une maison, que me conseillez-vous ?", "label": "reponse", "source": "synthetic"}
+{"context": "Bonjour ! Je suis l'assistant de l'entreprise. Comment puis-je vous aider ?", "text": "C'est combien le aliment poussin démarrage ?", "label": "reponse", "source": "synthetic"}
+{"context": "Votre demande : 500 poussins de concentré volaille livrés à Cocody. Je l'enregistre ?", "text": "je vous recontacte", "label": "reponse", "source": "synthetic"}
+{"context": "Le tout-venant est vendu sur devis, l'équipe confirme le prix et le transport.", "text": "il manque des sacs dans ma livraison", "label": "humain", "source": "synthetic"}
+{"context": "Récapitulatif : un camion de gravier 5/15, livraison à Bingerville. Confirmez-vous cette commande ?", "text": "parfait enregistrez", "label": "commande", "source": "synthetic"}
+{"context": "Donc 10 sacs de moellons pour Bingerville. Vous confirmez ?", "text": "c'est ok", "label": "commande", "source": "synthetic"}
+{"context": "", "text": "je veux une facture", "label": "humain", "source": "synthetic"}
+{"context": "", "text": "le transport coûte combien jusqu'à Koumassi ?", "label": "reponse", "source": "synthetic"}
+{"context": "", "text": "je vous recontacte", "label": "reponse", "source": "synthetic"}
+{"context": "", "text": "je veux un responsable svp", "label": "humain", "source": "synthetic"}
+{"context": "", "text": "il manque des sacs dans ma livraison", "label": "humain", "source": "synthetic"}
+{"context": "Le latérite est vendu sur devis, l'équipe confirme le prix et le transport.", "text": "Envoyez la photo du aliment porc..", "label": "photo", "source": "synthetic"}
+{"context": "Récapitulatif : 5 voyages de aliment croissance, livraison à Marcory. Confirmez-vous cette commande ?", "text": "c'est parfait", "label": "commande", "source": "synthetic"}
+{"context": "Le aliment croissance est vendu sur devis, l'équipe confirme le prix et le transport.", "text": "je veux parler à quelqu'un", "label": "humain", "source": "synthetic"}
+{"context": "Nous livrons à Cocody et dans tout Abidjan.", "text": "je veux parler au patron", "label": "humain", "source": "synthetic"}
+{"context": "Le moellons est vendu sur devis, l'équipe confirme le prix et le transport.", "text": "Vous avez une photo du latérite..", "label": "photo", "source": "synthetic"}
+{"context": "Le sable est vendu sur devis, l'équipe confirme le prix et le transport.", "text": "Salut", "label": "reponse", "source": "synthetic"}
+{"context": "Je résume : 100 kg de gravier 5/15, enlèvement sur site. C'est bon pour vous ?", "text": "Parfait enregistrez", "label": "commande", "source": "synthetic"}
+{"context": "Votre demande : 30 m3 de gravier 5/15 livrés à Bingerville. Je l'enregistre ?", "text": "on est ensemble", "label": "commande", "source": "synthetic"}
+{"context": "Nous livrons à Yopougon et dans tout Abidjan.", "text": "montrez-moi le aliment porc", "label": "photo", "source": "synthetic"}
+{"context": "Nous livrons à Yopougon et dans tout Abidjan.", "text": "appelez-moi s'il vous plaît", "label": "humain", "source": "synthetic"}
+{"context": "Donc 20 sacs de sable de mer pour Yopougon. Vous confirmez ?", "text": "c'est parfait", "label": "commande", "source": "synthetic"}
+{"context": "Récapitulatif : 30 m3 de aliment croissance, livraison à Anyama. Confirmez-vous cette commande ?", "text": "Oui je confirme", "label": "commande", "source": "synthetic"}
+{"context": "", "text": "personne ne répond, c'est inadmissible", "label": "humain", "source": "synthetic"}
+{"context": "Bonjour ! Je suis l'assistant de l'entreprise. Comment puis-je vous aider ?", "text": "je veux parler à quelqu'un", "label": "humain", "source": "synthetic"}
+{"context": "Votre demande : un camion de poussins de ponte livrés à Yopougon. Je l'enregistre ?", "text": "C'est bon dêh", "label": "commande", "source": "synthetic"}
+{"context": "Donc 500 poussins de aliment poussin démarrage pour Abobo. Vous confirmez ?", "text": "c'est combien le poussins de ponte svp", "label": "reponse", "source": "synthetic"}
+{"context": "Bonjour ! Je suis l'assistant de l'entreprise. Comment puis-je vous aider ?", "text": "c'est combien le gravier 15/25 !", "label": "reponse", "source": "synthetic"}
+{"context": "Bonjour ! Je suis l'assistant de l'entreprise. Comment puis-je vous aider ?", "text": "je peux voir le sable de mer ?", "label": "photo", "source": "synthetic"}
+{"context": "", "text": "Je veux une remise..", "label": "humain", "source": "synthetic"}
+{"context": "", "text": "Il ressemble à quoi le poussins de ponte ?", "label": "photo", "source": "synthetic"}
+{"context": "Bonjour ! Je suis l'assistant de l'entreprise. Comment puis-je vous aider ?", "text": "c'est une grosse commande, je veux discuter avec le commercial svp", "label": "humain", "source": "synthetic"}
+{"context": "Nous livrons à Marcory et dans tout Abidjan.", "text": "je peux voir le aliment croissance ?", "label": "photo", "source": "synthetic"}
+{"context": "Bonjour ! Je suis l'assistant de l'entreprise. Comment puis-je vous aider ?", "text": "montre le produit stp", "label": "photo", "source": "synthetic"}
+{"context": "Je résume : 30 m3 de gravier 15/25, enlèvement sur site. C'est bon pour vous ?", "text": "parfait enregistrez", "label": "commande", "source": "synthetic"}
+{"context": "Le aliment poussin démarrage est vendu sur devis, l'équipe confirme le prix et le transport.", "text": "montrez-moi le sable..", "label": "photo", "source": "synthetic"}
+{"context": "Bonjour ! Je suis l'assistant de l'entreprise. Comment puis-je vous aider ?", "text": "il ressemble à quoi le poussins de ponte ?", "label": "photo", "source": "synthetic"}
+{"context": "Nous livrons à Angré et dans tout Abidjan.", "text": "vous pouvez m'envoyer une photo ?", "label": "photo", "source": "synthetic"}
+{"context": "Votre demande : 2 tonnes de aliment croissance livrés à Angré. Je l'enregistre ?", "text": "Exactement, vous pouvez enregistrer svp", "label": "commande", "source": "synthetic"}
+{"context": "Je résume : 30 m3 de gravier 15/25, enlèvement sur site. C'est bon pour vous ?", "text": "Merci", "label": "reponse", "source": "synthetic"}
+{"context": "Je résume : 500 poussins de latérite, enlèvement sur site. C'est bon pour vous ?", "text": "d'accord", "label": "commande", "source": "synthetic"}
+{"context": "Nous livrons à Bingerville et dans tout Abidjan.", "text": "appelez-moi s'il vous plaît", "label": "humain", "source": "synthetic"}
+{"context": "Le gravier 5/15 est vendu sur devis, l'équipe confirme le prix et le transport.", "text": "montre le produit stp", "label": "photo", "source": "synthetic"}
+{"context": "Pour quelle quantité et quel lieu de livraison ?", "text": "je veux une facture", "label": "humain", "source": "synthetic"}
+{"context": "Je résume : 30 m3 de sable, enlèvement sur site. C'est bon pour vous ?", "text": "ok validez", "label": "commande", "source": "synthetic"}
+{"context": "Je résume : 5 voyages de aliment poussin démarrage, enlèvement sur site. C'est bon pour vous ?", "text": "C'est combien le aliment ponte ?", "label": "reponse", "source": "synthetic"}
+{"context": "Donc 30 m3 de moellons pour Bingerville. Vous confirmez ?", "text": "oui", "label": "commande", "source": "synthetic"}
+{"context": "Bonjour ! Je suis l'assistant de l'entreprise. Comment puis-je vous aider ?", "text": "je peux voir le gravier 15/25 ?", "label": "photo", "source": "synthetic"}
+{"context": "Donc 30 m3 de gravier 15/25 pour Yopougon. Vous confirmez ?", "text": "merci", "label": "reponse", "source": "synthetic"}
+{"context": "Votre demande : 20 sacs de sable livrés à Yopougon. Je l'enregistre ?", "text": "c'est quoi la différence entre gravier 5/15 et 15/25 ?", "label": "reponse", "source": "synthetic"}
+{"context": "Nous livrons à Bingerville et dans tout Abidjan.", "text": "personne ne répond, c'est inadmissible", "label": "humain", "source": "synthetic"}
+{"context": "Votre demande : 20 sacs de concentré volaille livrés à Bassam. Je l'enregistre ?", "text": "Non changez le lieu, c'est à cocody ?", "label": "reponse", "source": "synthetic"}
+{"context": "Donc 100 kg de gravier 15/25 pour Yopougon. Vous confirmez ?", "text": "c'est ok svp", "label": "commande", "source": "synthetic"}
+{"context": "Donc 100 kg de poussins de ponte pour Abobo. Vous confirmez ?", "text": "ok confirmé", "label": "commande", "source": "synthetic"}
+{"context": "Le gravier 5/15 est vendu sur devis, l'équipe confirme le prix et le transport.", "text": "Montre le produit stp merci", "label": "photo", "source": "synthetic"}
+{"context": "", "text": "photo du aliment croissance svp", "label": "photo", "source": "synthetic"}
+{"context": "Récapitulatif : 100 kg de sable, livraison à Bassam. Confirmez-vous cette commande ?", "text": "Ok validez ?", "label": "commande", "source": "synthetic"}
+{"context": "Je résume : 100 kg de moellons, enlèvement sur site. C'est bon pour vous ?", "text": "d'accord..", "label": "commande", "source": "synthetic"}
+{"context": "Nous livrons à Abobo et dans tout Abidjan.", "text": "Non changez le lieu, c'est à bassam", "label": "reponse", "source": "synthetic"}
+{"context": "Pour quelle quantité et quel lieu de livraison ?", "text": "le concentré volaille que j'ai reçu est de mauvaise qualité", "label": "humain", "source": "synthetic"}
+{"context": "Nous livrons à Marcory et dans tout Abidjan.", "text": "avez-vous du aliment croissance ?", "label": "reponse", "source": "synthetic"}
+{"context": "Le aliment croissance est vendu sur devis, l'équipe confirme le prix et le transport.", "text": "le sable de mer est disponible merci", "label": "reponse", "source": "synthetic"}
+{"context": "", "text": "vous pouvez m'envoyer une photo ?", "label": "photo", "source": "synthetic"}
+{"context": "Bonjour ! Je suis l'assistant de l'entreprise. Comment puis-je vous aider ?", "text": "Il ressemble à quoi le poussins chair ?", "label": "photo", "source": "synthetic"}
+{"context": "Donc 2 tonnes de gravier 15/25 pour Bingerville. Vous confirmez ?", "text": "Oui je confirme ?", "label": "commande", "source": "synthetic"}
+{"context": "Bonjour ! Je suis l'assistant de l'entreprise. Comment puis-je vous aider ?", "text": "ajoutez 20 sacs de sable", "label": "reponse", "source": "synthetic"}
+{"context": "Nous livrons à Yopougon et dans tout Abidjan.", "text": "montrez-moi le latérite", "label": "photo", "source": "synthetic"}
+{"context": "Je résume : 10 sacs de concentré volaille, enlèvement sur site. C'est bon pour vous ?", "text": "oui merci", "label": "commande", "source": "synthetic"}
+{"context": "Pour quelle quantité et quel lieu de livraison ?", "text": "c'est une grosse commande, je veux discuter avec le commercial svp", "label": "humain", "source": "synthetic"}
+{"context": "Donc 100 kg de poussins de ponte pour Abobo. Vous confirmez ?", "text": "C'est ok", "label": "commande", "source": "synthetic"}
+{"context": "Récapitulatif : 500 poussins de poussins chair, livraison à Yopougon. Confirmez-vous cette commande ?", "text": "D'accord je valide", "label": "commande", "source": "synthetic"}
+{"context": "Votre demande : 500 poussins de latérite livrés à Yopougon. Je l'enregistre ?", "text": "quel aliment pour des poulets de 3 semaines ?", "label": "reponse", "source": "synthetic"}
+{"context": "Donc 30 m3 de tout-venant pour Marcory. Vous confirmez ?", "text": "oui", "label": "commande", "source": "synthetic"}
+{"context": "", "text": "Votre livraison est arrivée en retard, je ne suis pas content", "label": "humain", "source": "synthetic"}
+{"context": "Nous livrons à Marcory et dans tout Abidjan.", "text": "il ressemble à quoi le tout-venant ?", "label": "photo", "source": "synthetic"}
+{"context": "Pour quelle quantité et quel lieu de livraison ?", "text": "non attendez", "label": "reponse", "source": "synthetic"}
+{"context": "Je résume : 5 voyages de sable de mer, enlèvement sur site. C'est bon pour vous ?", "text": "je confirme la commande", "label": "commande", "source": "synthetic"}
+{"context": "Récapitulatif : un camion de sable, livraison à Anyama. Confirmez-vous cette commande ?", "text": "il me faut combien de aliment croissance pour une dalle de 50 m2 ?", "label": "reponse", "source": "synthetic"}
+{"context": "Le aliment poussin démarrage est vendu sur devis, l'équipe confirme le prix et le transport.", "text": "vous êtes un robot ? je veux un humain", "label": "humain", "source": "synthetic"}
+{"context": "Pour quelle quantité et quel lieu de livraison ?", "text": "Je veux une facture", "label": "humain", "source": "synthetic"}
+{"context": "Nous livrons à Marcory et dans tout Abidjan.", "text": "Vous pouvez m'envoyer une photo merci", "label": "photo", "source": "synthetic"}
+{"context": "Récapitulatif : 20 sacs de moellons, livraison à Koumassi. Confirmez-vous cette commande ?", "text": "ok validez", "label": "commande", "source": "synthetic"}
+{"context": "Donc 5 voyages de sable de mer pour Anyama. Vous confirmez ?", "text": "validé", "label": "commande", "source": "synthetic"}
+{"context": "Pour quelle quantité et quel lieu de livraison ?", "text": "les poussins sont arrivés malades", "label": "humain", "source": "synthetic"}
+{"context": "", "text": "quel aliment pour des poulets de 3 semaines ?", "label": "reponse", "source": "synthetic"}
+{"context": "Récapitulatif : 500 poussins de gravier 15/25, livraison à Koumassi. Confirmez-vous cette commande ?", "text": "Ok c'est bon pour moi", "label": "commande", "source": "synthetic"}
+{"context": "", "text": "je peux voir le latérite merci", "label": "photo", "source": "synthetic"}
+{"context": "Bonjour ! Je suis l'assistant de l'entreprise. Comment puis-je vous aider ?", "text": "Vous acceptez orange money merci", "label": "reponse", "source": "synthetic"}
+{"context": "Je résume : 10 sacs de poussins chair, enlèvement sur site. C'est bon pour vous ?", "text": "je construis une maison, que me conseillez-vous ?", "label": "reponse", "source": "synthetic"}
+{"context": "Pour quelle quantité et quel lieu de livraison ?", "text": "votre livraison est arrivée en retard, je ne suis pas content svp", "label": "humain", "source": "synthetic"}
+{"context": "Je résume : 2 tonnes de aliment croissance, enlèvement sur site. C'est bon pour vous ?", "text": "c'est ok", "label": "commande", "source": "synthetic"}
+{"context": "Pour quelle quantité et quel lieu de livraison ?", "text": "photo du concentré volaille svp", "label": "photo", "source": "synthetic"}
+{"context": "Votre demande : 5 voyages de tout-venant livrés à Bingerville. Je l'enregistre ?", "text": "Ok merci pour l'info", "label": "reponse", "source": "synthetic"}
+{"context": "Bonjour ! Je suis l'assistant de l'entreprise. Comment puis-je vous aider ?", "text": "personne ne répond, c'est inadmissible", "label": "humain", "source": "synthetic"}
+{"context": "Donc 30 m3 de tout-venant pour Bassam. Vous confirmez ?", "text": "c'est ok", "label": "commande", "source": "synthetic"}
+{"context": "Votre demande : 100 kg de aliment poussin démarrage livrés à Anyama. Je l'enregistre ?", "text": "oui c'est ça", "label": "commande", "source": "synthetic"}
+{"context": "Le tout-venant est vendu sur devis, l'équipe confirme le prix et le transport.", "text": "je veux voir à quoi ressemble le concentré volaille", "label": "photo", "source": "synthetic"}
+{"context": "Je résume : 500 poussins de concentré volaille, enlèvement sur site. C'est bon pour vous ?", "text": "c'est parfait", "label": "commande", "source": "synthetic"}
+{"context": "", "text": "Bonsoir", "label": "reponse", "source": "synthetic"}
+{"context": "Bonjour ! Je suis l'assistant de l'entreprise. Comment puis-je vous aider ?", "text": "Non, plutôt un camion", "label": "reponse", "source": "synthetic"}
+{"context": "Bonjour ! Je suis l'assistant de l'entreprise. Comment puis-je vous aider ?", "text": "je construis une maison, que me conseillez-vous ?", "label": "reponse", "source": "synthetic"}
+{"context": "Votre demande : 10 sacs de tout-venant livrés à Anyama. Je l'enregistre ?", "text": "je confirme la commande", "label": "commande", "source": "synthetic"}
+{"context": "Votre demande : 10 sacs de aliment ponte livrés à Cocody. Je l'enregistre ?", "text": "c'est parfait", "label": "commande", "source": "synthetic"}
+{"context": "Le gravier 15/25 est vendu sur devis, l'équipe confirme le prix et le transport.", "text": "envoyez la photo du sable de mer", "label": "photo", "source": "synthetic"}
+{"context": "", "text": "vous pouvez m'envoyer une photo ?", "label": "photo", "source": "synthetic"}
+{"context": "Donc 500 poussins de aliment porc pour Cocody. Vous confirmez ?", "text": "d'accord je valide", "label": "commande", "source": "synthetic"}
+{"context": "", "text": "appelez-moi s'il vous plaît", "label": "humain", "source": "synthetic"}
+{"context": "Pour quelle quantité et quel lieu de livraison ?", "text": "je veux un responsable", "label": "humain", "source": "synthetic"}
+{"context": "Bonjour ! Je suis l'assistant de l'entreprise. Comment puis-je vous aider ?", "text": "envoie moi l'image du poussins de ponte merci", "label": "photo", "source": "synthetic"}
+{"context": "", "text": "J'ai un problème avec ma facture ?", "label": "humain", "source": "synthetic"}
+{"context": "", "text": "montrez-moi le aliment ponte", "label": "photo", "source": "synthetic"}
+{"context": "Votre demande : 10 sacs de aliment poussin démarrage livrés à Yopougon. Je l'enregistre ?", "text": "Oui merci !", "label": "commande", "source": "synthetic"}
+{"context": "", "text": "Envoyez la photo du gravier 15/25", "label": "photo", "source": "synthetic"}
+{"context": "Récapitulatif : 100 kg de poussins de ponte, livraison à Marcory. Confirmez-vous cette commande ?", "text": "vous êtes où ?", "label": "reponse", "source": "synthetic"}
+{"context": "Donc 5 voyages de aliment ponte pour Anyama. Vous confirmez ?", "text": "oui", "label": "commande", "source": "synthetic"}
+{"context": "Le concentré volaille est vendu sur devis, l'équipe confirme le prix et le transport.", "text": "vous avez une photo du aliment ponte svp", "label": "photo", "source": "synthetic"}
+{"context": "Le sable est vendu sur devis, l'équipe confirme le prix et le transport.", "text": "montre le produit stp", "label": "photo", "source": "synthetic"}
+{"context": "Donc 5 voyages de poussins chair pour Yopougon. Vous confirmez ?", "text": "oui", "label": "commande", "source": "synthetic"}
+{"context": "Pour quelle quantité et quel lieu de livraison ?", "text": "Je peux voir le gravier 15/25 ?", "label": "photo", "source": "synthetic"}
+{"context": "Récapitulatif : 100 kg de moellons, livraison à Cocody. Confirmez-vous cette commande ?", "text": "Ok c'est bon pour moi", "label": "commande", "source": "synthetic"}
+{"context": "", "text": "vous êtes un robot ? je veux un humain merci", "label": "humain", "source": "synthetic"}
+{"context": "Donc 2 tonnes de aliment ponte pour Koumassi. Vous confirmez ?", "text": "oui je confirme", "label": "commande", "source": "synthetic"}
+{"context": "Donc un camion de gravier 5/15 pour Bassam. Vous confirmez ?", "text": "Non changez le lieu, c'est à yopougon", "label": "reponse", "source": "synthetic"}
+{"context": "Je résume : 5 voyages de latérite, enlèvement sur site. C'est bon pour vous ?", "text": "c'est ok", "label": "commande", "source": "synthetic"}
+{"context": "Pour quelle quantité et quel lieu de livraison ?", "text": "Passez-moi un conseiller", "label": "humain", "source": "synthetic"}
+{"context": "Pour quelle quantité et quel lieu de livraison ?", "text": "je veux faire une réclamation sur la commande ?", "label": "humain", "source": "synthetic"}
+{"context": "Votre demande : 30 m3 de sable de mer livrés à Bassam. Je l'enregistre ?", "text": "je confirme la commande merci", "label": "commande", "source": "synthetic"}
+{"context": "Donc 500 poussins de gravier 15/25 pour Bingerville. Vous confirmez ?", "text": "C'est parfait", "label": "commande", "source": "synthetic"}
+{"context": "", "text": "votre livraison est arrivée en retard, je ne suis pas content", "label": "humain", "source": "synthetic"}
+{"context": "", "text": "Je veux voir à quoi ressemble le aliment porc", "label": "photo", "source": "synthetic"}
+{"context": "Récapitulatif : un camion de aliment poussin démarrage, livraison à Yopougon. Confirmez-vous cette commande ?", "text": "Oui allez-y", "label": "commande", "source": "synthetic"}
+{"context": "Le latérite est vendu sur devis, l'équipe confirme le prix et le transport.", "text": "Vous pouvez m'envoyer une photo ?", "label": "photo", "source": "synthetic"}
+{"context": "", "text": "non changez le lieu, c'est à Abobo", "label": "reponse", "source": "synthetic"}
+{"context": "Je résume : 2 tonnes de aliment porc, enlèvement sur site. C'est bon pour vous ?", "text": "exactement, vous pouvez enregistrer", "label": "commande", "source": "synthetic"}
+{"context": "Pour quelle quantité et quel lieu de livraison ?", "text": "Personne ne répond, c'est inadmissible", "label": "humain", "source": "synthetic"}
+{"context": "", "text": "passez-moi un conseiller merci", "label": "humain", "source": "synthetic"}
+{"context": "Je résume : un camion de moellons, enlèvement sur site. C'est bon pour vous ?", "text": "c'est parfait", "label": "commande", "source": "synthetic"}
+{"context": "Votre demande : 100 kg de aliment porc livrés à Yopougon. Je l'enregistre ?", "text": "c'est bon dêh merci", "label": "commande", "source": "synthetic"}
+{"context": "", "text": "vous êtes un robot ? je veux un humain", "label": "humain", "source": "synthetic"}
+{"context": "Nous livrons à Koumassi et dans tout Abidjan.", "text": "Je veux un responsable", "label": "humain", "source": "synthetic"}
+{"context": "", "text": "Livraison possible demain ?", "label": "reponse", "source": "synthetic"}
+{"context": "Votre demande : 2 tonnes de concentré volaille livrés à Abobo. Je l'enregistre ?", "text": "c'est bon", "label": "commande", "source": "synthetic"}
+{"context": "Votre demande : 10 sacs de gravier 15/25 livrés à Bingerville. Je l'enregistre ?", "text": "c'est parfait ?", "label": "commande", "source": "synthetic"}
+{"context": "Nous livrons à Marcory et dans tout Abidjan.", "text": "quels sont vos horaires ?", "label": "reponse", "source": "synthetic"}
+{"context": "Bonjour ! Je suis l'assistant de l'entreprise. Comment puis-je vous aider ?", "text": "montrez-moi le moellons", "label": "photo", "source": "synthetic"}
+{"context": "Pour quelle quantité et quel lieu de livraison ?", "text": "le concentré volaille que j'ai reçu est de mauvaise qualité", "label": "humain", "source": "synthetic"}
+{"context": "Récapitulatif : 2 tonnes de poussins chair, livraison à Yopougon. Confirmez-vous cette commande ?", "text": "oui c'est ça", "label": "commande", "source": "synthetic"}
+{"context": "", "text": "photo du gravier 15/25 svp", "label": "photo", "source": "synthetic"}
+{"context": "Récapitulatif : 30 m3 de aliment poussin démarrage, livraison à Koumassi. Confirmez-vous cette commande ?", "text": "exactement, vous pouvez enregistrer", "label": "commande", "source": "synthetic"}
+{"context": "Bonjour ! Je suis l'assistant de l'entreprise. Comment puis-je vous aider ?", "text": "envoyez la photo du poussins chair", "label": "photo", "source": "synthetic"}
+{"context": "Bonjour ! Je suis l'assistant de l'entreprise. Comment puis-je vous aider ?", "text": "ok merci pour l'info", "label": "reponse", "source": "synthetic"}
+{"context": "Je résume : 100 kg de aliment poussin démarrage, enlèvement sur site. C'est bon pour vous ?", "text": "pas encore, je réfléchis", "label": "reponse", "source": "synthetic"}
+{"context": "Je résume : 5 voyages de sable de mer, enlèvement sur site. C'est bon pour vous ?", "text": "c'est quoi la différence entre gravier 5/15 et 15/25 ?", "label": "reponse", "source": "synthetic"}
+{"context": "Nous livrons à Bingerville et dans tout Abidjan.", "text": "je peux voir le gravier 5/15 ?", "label": "photo", "source": "synthetic"}
+{"context": "Pour quelle quantité et quel lieu de livraison ?", "text": "les poussins sont arrivés malades..", "label": "humain", "source": "synthetic"}
+{"context": "Le aliment poussin démarrage est vendu sur devis, l'équipe confirme le prix et le transport.", "text": "Je veux parler au patron", "label": "humain", "source": "synthetic"}
+{"context": "Je résume : 20 sacs de concentré volaille, enlèvement sur site. C'est bon pour vous ?", "text": "je confirme la commande merci", "label": "commande", "source": "synthetic"}
+{"context": "Le concentré volaille est vendu sur devis, l'équipe confirme le prix et le transport.", "text": "je veux un responsable", "label": "humain", "source": "synthetic"}
+{"context": "", "text": "je peux voir le gravier 15/25 ?", "label": "photo", "source": "synthetic"}
+{"context": "Nous livrons à Angré et dans tout Abidjan.", "text": "Vous pouvez m'envoyer une photo ?", "label": "photo", "source": "synthetic"}
+{"context": "", "text": "bonsoir ?", "label": "reponse", "source": "synthetic"}
+{"context": "Le gravier 15/25 est vendu sur devis, l'équipe confirme le prix et le transport.", "text": "vous avez une photo du poussins chair ?", "label": "photo", "source": "synthetic"}
+{"context": "Pour quelle quantité et quel lieu de livraison ?", "text": "envoie moi l'image du sable de mer", "label": "photo", "source": "synthetic"}
+{"context": "Donc 2 tonnes de concentré volaille pour Marcory. Vous confirmez ?", "text": "exactement, vous pouvez enregistrer", "label": "commande", "source": "synthetic"}
+{"context": "Pour quelle quantité et quel lieu de livraison ?", "text": "pas encore, je réfléchis !", "label": "reponse", "source": "synthetic"}
+{"context": "Nous livrons à Abobo et dans tout Abidjan.", "text": "vous pouvez m'envoyer une photo svp", "label": "photo", "source": "synthetic"}
+{"context": "Votre demande : 30 m3 de tout-venant livrés à Marcory. Je l'enregistre ?", "text": "D'accord", "label": "commande", "source": "synthetic"}
+{"context": "", "text": "Photo du tout-venant svp", "label": "photo", "source": "synthetic"}
+{"context": "Pour quelle quantité et quel lieu de livraison ?", "text": "C'est trop cher, on peut négocier ?", "label": "humain", "source": "synthetic"}
+{"context": "Le aliment croissance est vendu sur devis, l'équipe confirme le prix et le transport.", "text": "montrez-moi le aliment ponte", "label": "photo", "source": "synthetic"}
+{"context": "Nous livrons à Yopougon et dans tout Abidjan.", "text": "Livraison possible demain ?", "label": "reponse", "source": "synthetic"}
+{"context": "Pour quelle quantité et quel lieu de livraison ?", "text": "il me faut combien de aliment poussin démarrage pour une dalle de 50 m2 ?", "label": "reponse", "source": "synthetic"}
+{"context": "Donc 20 sacs de moellons pour Marcory. Vous confirmez ?", "text": "vous êtes où ?", "label": "reponse", "source": "synthetic"}
+{"context": "Nous livrons à Yopougon et dans tout Abidjan.", "text": "le poussins de ponte que j'ai reçu est de mauvaise qualité", "label": "humain", "source": "synthetic"}
+{"context": "Nous livrons à Angré et dans tout Abidjan.", "text": "rappelez-moi au plus vite", "label": "humain", "source": "synthetic"}
+{"context": "Nous livrons à Angré et dans tout Abidjan.", "text": "je veux une facture", "label": "humain", "source": "synthetic"}
+{"context": "Nous livrons à Bingerville et dans tout Abidjan.", "text": "merci", "label": "reponse", "source": "synthetic"}
+{"context": "Votre demande : 20 sacs de poussins de ponte livrés à Abobo. Je l'enregistre ?", "text": "ok c'est bon pour moi", "label": "commande", "source": "synthetic"}
+{"context": "", "text": "Je veux une facture", "label": "humain", "source": "synthetic"}
+{"context": "Nous livrons à Angré et dans tout Abidjan.", "text": "envoyez la photo du sable svp", "label": "photo", "source": "synthetic"}
+{"context": "Bonjour ! Je suis l'assistant de l'entreprise. Comment puis-je vous aider ?", "text": "montre le produit stp", "label": "photo", "source": "synthetic"}
+{"context": "Pour quelle quantité et quel lieu de livraison ?", "text": "Montre le produit stp", "label": "photo", "source": "synthetic"}
+{"context": "Pour quelle quantité et quel lieu de livraison ?", "text": "appelez-moi s'il vous plaît", "label": "humain", "source": "synthetic"}
+{"context": "Votre demande : 100 kg de concentré volaille livrés à Anyama. Je l'enregistre ?", "text": "oui go", "label": "commande", "source": "synthetic"}
+{"context": "Le sable est vendu sur devis, l'équipe confirme le prix et le transport.", "text": "c'est une grosse commande, je veux discuter avec le commercial", "label": "humain", "source": "synthetic"}
+{"context": "Je résume : 100 kg de aliment poussin démarrage, enlèvement sur site. C'est bon pour vous ?", "text": "d'accord je valide", "label": "commande", "source": "synthetic"}
+{"context": "Nous livrons à Marcory et dans tout Abidjan.", "text": "envoyez la photo du gravier 15/25", "label": "photo", "source": "synthetic"}
+{"context": "Pour quelle quantité et quel lieu de livraison ?", "text": "les poussins sont arrivés malades", "label": "humain", "source": "synthetic"}
+{"context": "Récapitulatif : 500 poussins de gravier 5/15, livraison à Bassam. Confirmez-vous cette commande ?", "text": "salut..", "label": "reponse", "source": "synthetic"}
+{"context": "Donc 5 voyages de concentré volaille pour Cocody. Vous confirmez ?", "text": "validé", "label": "commande", "source": "synthetic"}
+{"context": "Pour quelle quantité et quel lieu de livraison ?", "text": "vous acceptez orange money ?", "label": "reponse", "source": "synthetic"}
+{"context": "Je résume : 500 poussins de gravier 15/25, enlèvement sur site. C'est bon pour vous ?", "text": "c'est ok", "label": "commande", "source": "synthetic"}
+{"context": "Bonjour ! Je suis l'assistant de l'entreprise. Comment puis-je vous aider ?", "text": "vous pouvez m'envoyer une photo ?", "label": "photo", "source": "synthetic"}
+{"context": "Nous livrons à Cocody et dans tout Abidjan.", "text": "les poussins sont arrivés malades", "label": "humain", "source": "synthetic"}
+{"context": "Récapitulatif : 20 sacs de gravier 15/25, livraison à Koumassi. Confirmez-vous cette commande ?", "text": "oui", "label": "commande", "source": "synthetic"}
+{"context": "Bonjour ! Je suis l'assistant de l'entreprise. Comment puis-je vous aider ?", "text": "réclamation", "label": "humain", "source": "synthetic"}
+{"context": "Je résume : 2 tonnes de poussins de ponte, enlèvement sur site. C'est bon pour vous ?", "text": "C'est parfait", "label": "commande", "source": "synthetic"}
+{"context": "Le aliment croissance est vendu sur devis, l'équipe confirme le prix et le transport.", "text": "vous pouvez m'envoyer une photo ?", "label": "photo", "source": "synthetic"}
+{"context": "", "text": "Je suis à bassam", "label": "reponse", "source": "synthetic"}
+{"context": "Bonjour ! Je suis l'assistant de l'entreprise. Comment puis-je vous aider ?", "text": "je veux parler au patron", "label": "humain", "source": "synthetic"}
+{"context": "Récapitulatif : un camion de gravier 15/25, livraison à Cocody. Confirmez-vous cette commande ?", "text": "Le transport coûte combien jusqu'à koumassi ?", "label": "reponse", "source": "synthetic"}
+{"context": "Pour quelle quantité et quel lieu de livraison ?", "text": "quel aliment pour des poulets de 3 semaines ?", "label": "reponse", "source": "synthetic"}
+{"context": "Pour quelle quantité et quel lieu de livraison ?", "text": "à quelle heure vous ouvrez ?", "label": "reponse", "source": "synthetic"}
+{"context": "Récapitulatif : 10 sacs de gravier 5/15, livraison à Bassam. Confirmez-vous cette commande ?", "text": "ok validez", "label": "commande", "source": "synthetic"}
+{"context": "Bonjour ! Je suis l'assistant de l'entreprise. Comment puis-je vous aider ?", "text": "personne ne répond, c'est inadmissible", "label": "humain", "source": "synthetic"}
+{"context": "Bonjour ! Je suis l'assistant de l'entreprise. Comment puis-je vous aider ?", "text": "je peux voir le latérite ?", "label": "photo", "source": "synthetic"}
+{"context": "Je résume : un camion de tout-venant, enlèvement sur site. C'est bon pour vous ?", "text": "on est ensemble", "label": "commande", "source": "synthetic"}
+{"context": "Le aliment poussin démarrage est vendu sur devis, l'équipe confirme le prix et le transport.", "text": "Avez-vous du moellons ?", "label": "reponse", "source": "synthetic"}
+{"context": "", "text": "quel aliment pour des poulets de 3 semaines merci", "label": "reponse", "source": "synthetic"}
+{"context": "Bonjour ! Je suis l'assistant de l'entreprise. Comment puis-je vous aider ?", "text": "bonsoir", "label": "reponse", "source": "synthetic"}
+{"context": "Récapitulatif : 500 poussins de poussins chair, livraison à Anyama. Confirmez-vous cette commande ?", "text": "d'accord", "label": "commande", "source": "synthetic"}
+{"context": "Le gravier 5/15 est vendu sur devis, l'équipe confirme le prix et le transport.", "text": "il me faut combien de aliment ponte pour une dalle de 50 m2 merci", "label": "reponse", "source": "synthetic"}
+{"context": "Le sable est vendu sur devis, l'équipe confirme le prix et le transport.", "text": "envoyez la photo du aliment ponte", "label": "photo", "source": "synthetic"}
+{"context": "Bonjour ! Je suis l'assistant de l'entreprise. Comment puis-je vous aider ?", "text": "photo du aliment ponte svp ?", "label": "photo", "source": "synthetic"}
+{"context": "Votre demande : 30 m3 de poussins de ponte livrés à Koumassi. Je l'enregistre ?", "text": "Oui merci", "label": "commande", "source": "synthetic"}
+{"context": "Le moellons est vendu sur devis, l'équipe confirme le prix et le transport.", "text": "bonjour", "label": "reponse", "source": "synthetic"}
+{"context": "Pour quelle quantité et quel lieu de livraison ?", "text": "je veux voir à quoi ressemble le aliment croissance", "label": "photo", "source": "synthetic"}
+{"context": "Pour quelle quantité et quel lieu de livraison ?", "text": "Les poussins sont arrivés malades", "label": "humain", "source": "synthetic"}
+{"context": "Le concentré volaille est vendu sur devis, l'équipe confirme le prix et le transport.", "text": "Je veux une facture", "label": "humain", "source": "synthetic"}
+{"context": "Nous livrons à Bassam et dans tout Abidjan.", "text": "Vous pouvez m'envoyer une photo ?", "label": "photo", "source": "synthetic"}
+{"context": "Je résume : 20 sacs de aliment ponte, enlèvement sur site. C'est bon pour vous ?", "text": "ok c'est bon pour moi svp", "label": "commande", "source": "synthetic"}
+{"context": "Le aliment porc est vendu sur devis, l'équipe confirme le prix et le transport.", "text": "c'est une grosse commande, je veux discuter avec le commercial", "label": "humain", "source": "synthetic"}
+{"context": "", "text": "montrez-moi le sable de mer svp", "label": "photo", "source": "synthetic"}
+{"context": "Bonjour ! Je suis l'assistant de l'entreprise. Comment puis-je vous aider ?", "text": "je veux parler au patron", "label": "humain", "source": "synthetic"}
+{"context": "Nous livrons à Abobo et dans tout Abidjan.", "text": "je veux parler au patron", "label": "humain", "source": "synthetic"}
+{"context": "", "text": "passez-moi un conseiller", "label": "humain", "source": "synthetic"}
+{"context": "Pour quelle quantité et quel lieu de livraison ?", "text": "Vous avez une photo du aliment ponte !", "label": "photo", "source": "synthetic"}
+{"context": "Récapitulatif : 30 m3 de tout-venant, livraison à Anyama. Confirmez-vous cette commande ?", "text": "Oui allez-y", "label": "commande", "source": "synthetic"}
+{"context": "Nous livrons à Angré et dans tout Abidjan.", "text": "vous pouvez m'envoyer une photo ?", "label": "photo", "source": "synthetic"}
+{"context": "Nous livrons à Cocody et dans tout Abidjan.", "text": "salut", "label": "reponse", "source": "synthetic"}
+{"context": "Récapitulatif : 20 sacs de concentré volaille, livraison à Cocody. Confirmez-vous cette commande ?", "text": "d'accord je valide", "label": "commande", "source": "synthetic"}
+{"context": "Je résume : 30 m3 de latérite, enlèvement sur site. C'est bon pour vous ?", "text": "oui go", "label": "commande", "source": "synthetic"}
+{"context": "Je résume : 2 tonnes de latérite, enlèvement sur site. C'est bon pour vous ?", "text": "il me faut combien de latérite pour une dalle de 50 m2 ?", "label": "reponse", "source": "synthetic"}
+{"context": "", "text": "photo du aliment ponte svp", "label": "photo", "source": "synthetic"}
+{"context": "Donc 100 kg de gravier 5/15 pour Marcory. Vous confirmez ?", "text": "oui merci", "label": "commande", "source": "synthetic"}
+{"context": "Pour quelle quantité et quel lieu de livraison ?", "text": "le moellons que j'ai reçu est de mauvaise qualité", "label": "humain", "source": "synthetic"}
+{"context": "Récapitulatif : 10 sacs de latérite, livraison à Abobo. Confirmez-vous cette commande ?", "text": "combien coûte le aliment poussin démarrage ?", "label": "reponse", "source": "synthetic"}
+{"context": "Votre demande : 100 kg de aliment croissance livrés à Anyama. Je l'enregistre ?", "text": "validé", "label": "commande", "source": "synthetic"}
+{"context": "Bonjour ! Je suis l'assistant de l'entreprise. Comment puis-je vous aider ?", "text": "Je veux parler au patron", "label": "humain", "source": "synthetic"}
+{"context": "Bonjour ! Je suis l'assistant de l'entreprise. Comment puis-je vous aider ?", "text": "vous avez une photo du gravier 15/25..", "label": "photo", "source": "synthetic"}
+{"context": "", "text": "montrez-moi le moellons", "label": "photo", "source": "synthetic"}
+{"context": "Récapitulatif : un camion de latérite, livraison à Yopougon. Confirmez-vous cette commande ?", "text": "ok confirmé", "label": "commande", "source": "synthetic"}
+{"context": "Donc 10 sacs de aliment porc pour Marcory. Vous confirmez ?", "text": "Validé", "label": "commande", "source": "synthetic"}
+{"context": "Bonjour ! Je suis l'assistant de l'entreprise. Comment puis-je vous aider ?", "text": "quel aliment pour des poulets de 3 semaines ?", "label": "reponse", "source": "synthetic"}
+{"context": "Récapitulatif : 5 voyages de aliment ponte, livraison à Bingerville. Confirmez-vous cette commande ?", "text": "non, plutôt 10 sacs", "label": "reponse", "source": "synthetic"}
+{"context": "Récapitulatif : 10 sacs de gravier 15/25, livraison à Bassam. Confirmez-vous cette commande ?", "text": "Oui", "label": "commande", "source": "synthetic"}
+{"context": "Votre demande : 5 voyages de aliment croissance livrés à Anyama. Je l'enregistre ?", "text": "vous livrez à Bassam merci", "label": "reponse", "source": "synthetic"}
+{"context": "Votre demande : 30 m3 de tout-venant livrés à Bassam. Je l'enregistre ?", "text": "c'est combien le sable de mer ?", "label": "reponse", "source": "synthetic"}
+{"context": "Nous livrons à Angré et dans tout Abidjan.", "text": "je veux faire une réclamation sur la commande !", "label": "humain", "source": "synthetic"}
+{"context": "Nous livrons à Abobo et dans tout Abidjan.", "text": "je veux parler au patron ?", "label": "humain", "source": "synthetic"}
+{"context": "", "text": "Je veux voir à quoi ressemble le aliment poussin démarrage", "label": "photo", "source": "synthetic"}
+{"context": "Le sable de mer est vendu sur devis, l'équipe confirme le prix et le transport.", "text": "à quelle heure vous ouvrez svp", "label": "reponse", "source": "synthetic"}
+{"context": "Le gravier 5/15 est vendu sur devis, l'équipe confirme le prix et le transport.", "text": "je peux voir le concentré volaille ?", "label": "photo", "source": "synthetic"}
+{"context": "Bonjour ! Je suis l'assistant de l'entreprise. Comment puis-je vous aider ?", "text": "Salut", "label": "reponse", "source": "synthetic"}
+{"context": "Le aliment poussin démarrage est vendu sur devis, l'équipe confirme le prix et le transport.", "text": "montre le produit stp", "label": "photo", "source": "synthetic"}
+{"context": "", "text": "je vous recontacte", "label": "reponse", "source": "synthetic"}
+{"context": "Le poussins de ponte est vendu sur devis, l'équipe confirme le prix et le transport.", "text": "vous avez une photo du poussins de ponte ?", "label": "photo", "source": "synthetic"}
+{"context": "Nous livrons à Angré et dans tout Abidjan.", "text": "les poussins sont arrivés malades", "label": "humain", "source": "synthetic"}
+{"context": "Donc 100 kg de gravier 15/25 pour Yopougon. Vous confirmez ?", "text": "c'est parfait", "label": "commande", "source": "synthetic"}
+{"context": "Je résume : 2 tonnes de poussins chair, enlèvement sur site. C'est bon pour vous ?", "text": "Oui allez-y..", "label": "commande", "source": "synthetic"}
+{"context": "Votre demande : 500 poussins de gravier 15/25 livrés à Bingerville. Je l'enregistre ?", "text": "oui c'est ça", "label": "commande", "source": "synthetic"}
+{"context": "Nous livrons à Cocody et dans tout Abidjan.", "text": "Vous êtes un robot ? je veux un humain", "label": "humain", "source": "synthetic"}
+{"context": "Nous livrons à Marcory et dans tout Abidjan.", "text": "j'ai un problème avec ma facture", "label": "humain", "source": "synthetic"}
+{"context": "", "text": "je veux une facture", "label": "humain", "source": "synthetic"}
+{"context": "", "text": "vous livrez à Abobo ?", "label": "reponse", "source": "synthetic"}
+{"context": "Bonjour ! Je suis l'assistant de l'entreprise. Comment puis-je vous aider ?", "text": "montre le produit stp", "label": "photo", "source": "synthetic"}
+{"context": "Récapitulatif : 100 kg de latérite, livraison à Bassam. Confirmez-vous cette commande ?", "text": "oui merci", "label": "commande", "source": "synthetic"}
+{"context": "", "text": "je peux voir le latérite merci", "label": "photo", "source": "synthetic"}
+{"context": "Récapitulatif : 20 sacs de aliment croissance, livraison à Bassam. Confirmez-vous cette commande ?", "text": "non changez le lieu, c'est à Angré", "label": "reponse", "source": "synthetic"}
+{"context": "Récapitulatif : 500 poussins de moellons, livraison à Yopougon. Confirmez-vous cette commande ?", "text": "on est ensemble", "label": "commande", "source": "synthetic"}
+{"context": "Votre demande : un camion de sable de mer livrés à Bingerville. Je l'enregistre ?", "text": "exactement, vous pouvez enregistrer", "label": "commande", "source": "synthetic"}
+{"context": "Pour quelle quantité et quel lieu de livraison ?", "text": "livraison possible demain ?", "label": "reponse", "source": "synthetic"}
+{"context": "Pour quelle quantité et quel lieu de livraison ?", "text": "le sable de mer que j'ai reçu est de mauvaise qualité", "label": "humain", "source": "synthetic"}
+{"context": "Je résume : 30 m3 de moellons, enlèvement sur site. C'est bon pour vous ?", "text": "le transport coûte combien jusqu'à Yopougon ?", "label": "reponse", "source": "synthetic"}
+{"context": "Nous livrons à Cocody et dans tout Abidjan.", "text": "passez-moi un conseiller", "label": "humain", "source": "synthetic"}
+{"context": "Nous livrons à Yopougon et dans tout Abidjan.", "text": "je veux une remise", "label": "humain", "source": "synthetic"}
+{"context": "Le sable de mer est vendu sur devis, l'équipe confirme le prix et le transport.", "text": "Rappelez-moi au plus vite ?", "label": "humain", "source": "synthetic"}
+{"context": "Votre demande : 20 sacs de sable de mer livrés à Cocody. Je l'enregistre ?", "text": "Oui je confirme", "label": "commande", "source": "synthetic"}
+{"context": "Votre demande : 20 sacs de aliment croissance livrés à Koumassi. Je l'enregistre ?", "text": "C'est bon..", "label": "commande", "source": "synthetic"}
+{"context": "Récapitulatif : un camion de aliment croissance, livraison à Cocody. Confirmez-vous cette commande ?", "text": "D'accord svp", "label": "commande", "source": "synthetic"}
+{"context": "Bonjour ! Je suis l'assistant de l'entreprise. Comment puis-je vous aider ?", "text": "je veux voir à quoi ressemble le poussins chair !", "label": "photo", "source": "synthetic"}
+{"context": "", "text": "Je veux parler à quelqu'un", "label": "humain", "source": "synthetic"}
+{"context": "Votre demande : 30 m3 de aliment poussin démarrage livrés à Abobo. Je l'enregistre ?", "text": "Je construis une maison, que me conseillez-vous ?", "label": "reponse", "source": "synthetic"}
+{"context": "Pour quelle quantité et quel lieu de livraison ?", "text": "envoie moi l'image du sable", "label": "photo", "source": "synthetic"}
+{"context": "Je résume : 2 tonnes de sable de mer, enlèvement sur site. C'est bon pour vous ?", "text": "non, plutôt un camion", "label": "reponse", "source": "synthetic"}
+{"context": "", "text": "Montre le produit stp svp", "label": "photo", "source": "synthetic"}
+{"context": "Bonjour ! Je suis l'assistant de l'entreprise. Comment puis-je vous aider ?", "text": "Rappelez-moi au plus vite", "label": "humain", "source": "synthetic"}
+{"context": "Le sable est vendu sur devis, l'équipe confirme le prix et le transport.", "text": "je veux voir à quoi ressemble le poussins chair", "label": "photo", "source": "synthetic"}
+{"context": "Bonjour ! Je suis l'assistant de l'entreprise. Comment puis-je vous aider ?", "text": "photo du poussins de ponte svp", "label": "photo", "source": "synthetic"}
+{"context": "Donc un camion de sable de mer pour Bingerville. Vous confirmez ?", "text": "oui", "label": "commande", "source": "synthetic"}
+{"context": "", "text": "Envoyez la photo du aliment croissance merci", "label": "photo", "source": "synthetic"}
+{"context": "Donc 5 voyages de concentré volaille pour Angré. Vous confirmez ?", "text": "bonsoir", "label": "reponse", "source": "synthetic"}
+{"context": "Le sable est vendu sur devis, l'équipe confirme le prix et le transport.", "text": "bonsoir", "label": "reponse", "source": "synthetic"}
+{"context": "Le aliment ponte est vendu sur devis, l'équipe confirme le prix et le transport.", "text": "il manque des sacs dans ma livraison", "label": "humain", "source": "synthetic"}
+{"context": "Votre demande : 10 sacs de sable livrés à Bassam. Je l'enregistre ?", "text": "vous êtes où ?", "label": "reponse", "source": "synthetic"}
+{"context": "Votre demande : 100 kg de sable de mer livrés à Bassam. Je l'enregistre ?", "text": "c'est ok", "label": "commande", "source": "synthetic"}
+{"context": "", "text": "envoyez la photo du sable de mer ?", "label": "photo", "source": "synthetic"}
+{"context": "Nous livrons à Koumassi et dans tout Abidjan.", "text": "Je vous recontacte", "label": "reponse", "source": "synthetic"}
+{"context": "Pour quelle quantité et quel lieu de livraison ?", "text": "Il ressemble à quoi le sable ?", "label": "photo", "source": "synthetic"}
+{"context": "Pour quelle quantité et quel lieu de livraison ?", "text": "Il ressemble à quoi le aliment poussin démarrage ?", "label": "photo", "source": "synthetic"}
+{"context": "Le aliment croissance est vendu sur devis, l'équipe confirme le prix et le transport.", "text": "Le transport coûte combien jusqu'à koumassi ?", "label": "reponse", "source": "synthetic"}
+{"context": "Nous livrons à Marcory et dans tout Abidjan.", "text": "non changez le lieu, c'est à Cocody", "label": "reponse", "source": "synthetic"}
+{"context": "Donc 500 poussins de sable pour Yopougon. Vous confirmez ?", "text": "c'est bon", "label": "commande", "source": "synthetic"}
+{"context": "Je résume : 2 tonnes de poussins chair, enlèvement sur site. C'est bon pour vous ?", "text": "oui go", "label": "commande", "source": "synthetic"}
+{"context": "Bonjour ! Je suis l'assistant de l'entreprise. Comment puis-je vous aider ?", "text": "je vous recontacte ?", "label": "reponse", "source": "synthetic"}
+{"context": "Nous livrons à Bingerville et dans tout Abidjan.", "text": "personne ne répond, c'est inadmissible merci", "label": "humain", "source": "synthetic"}
+{"context": "Pour quelle quantité et quel lieu de livraison ?", "text": "bonjour", "label": "reponse", "source": "synthetic"}
+{"context": "Bonjour ! Je suis l'assistant de l'entreprise. Comment puis-je vous aider ?", "text": "personne ne répond, c'est inadmissible", "label": "humain", "source": "synthetic"}
+{"context": "Le aliment porc est vendu sur devis, l'équipe confirme le prix et le transport.", "text": "Photo du sable svp", "label": "photo", "source": "synthetic"}
+{"context": "Le aliment poussin démarrage est vendu sur devis, l'équipe confirme le prix et le transport.", "text": "envoyez la photo du aliment ponte", "label": "photo", "source": "synthetic"}
+{"context": "Bonjour ! Je suis l'assistant de l'entreprise. Comment puis-je vous aider ?", "text": "Les poussins sont arrivés malades", "label": "humain", "source": "synthetic"}
+{"context": "Nous livrons à Bassam et dans tout Abidjan.", "text": "Faites un prix, je prends beaucoup", "label": "humain", "source": "synthetic"}
+{"context": "Récapitulatif : 20 sacs de aliment croissance, livraison à Abobo. Confirmez-vous cette commande ?", "text": "vous acceptez orange money ?", "label": "reponse", "source": "synthetic"}
+{"context": "", "text": "je veux voir à quoi ressemble le moellons !", "label": "photo", "source": "synthetic"}
+{"context": "Nous livrons à Bingerville et dans tout Abidjan.", "text": "c'est une grosse commande, je veux discuter avec le commercial", "label": "humain", "source": "synthetic"}
+{"context": "Bonjour ! Je suis l'assistant de l'entreprise. Comment puis-je vous aider ?", "text": "C'est trop cher, on peut négocier ?", "label": "humain", "source": "synthetic"}
+{"context": "Nous livrons à Abobo et dans tout Abidjan.", "text": "personne ne répond, c'est inadmissible", "label": "humain", "source": "synthetic"}
+{"context": "", "text": "Je vous recontacte", "label": "reponse", "source": "synthetic"}
+{"context": "Nous livrons à Abobo et dans tout Abidjan.", "text": "Le concentré volaille que j'ai reçu est de mauvaise qualité", "label": "humain", "source": "synthetic"}
+{"context": "Le concentré volaille est vendu sur devis, l'équipe confirme le prix et le transport.", "text": "envoie moi l'image du gravier 5/15 !", "label": "photo", "source": "synthetic"}
+{"context": "Pour quelle quantité et quel lieu de livraison ?", "text": "Votre livraison est arrivée en retard, je ne suis pas content", "label": "humain", "source": "synthetic"}
+{"context": "Le latérite est vendu sur devis, l'équipe confirme le prix et le transport.", "text": "j'ai un problème avec ma facture..", "label": "humain", "source": "synthetic"}
+{"context": "Je résume : 500 poussins de poussins chair, enlèvement sur site. C'est bon pour vous ?", "text": "oui merci", "label": "commande", "source": "synthetic"}
+{"context": "Votre demande : 10 sacs de poussins chair livrés à Marcory. Je l'enregistre ?", "text": "vous livrez à Angré ?", "label": "reponse", "source": "synthetic"}
+{"context": "", "text": "vous avez une photo du gravier 15/25 ?", "label": "photo", "source": "synthetic"}
+{"context": "Pour quelle quantité et quel lieu de livraison ?", "text": "Vous pouvez m'envoyer une photo ?", "label": "photo", "source": "synthetic"}
+{"context": "Nous livrons à Abobo et dans tout Abidjan.", "text": "j'ai un problème avec ma facture", "label": "humain", "source": "synthetic"}
+{"context": "Je résume : 30 m3 de sable de mer, enlèvement sur site. C'est bon pour vous ?", "text": "exactement, vous pouvez enregistrer", "label": "commande", "source": "synthetic"}
+{"context": "Donc un camion de gravier 5/15 pour Angré. Vous confirmez ?", "text": "Oui go", "label": "commande", "source": "synthetic"}
+{"context": "Récapitulatif : 20 sacs de sable de mer, livraison à Koumassi. Confirmez-vous cette commande ?", "text": "oui merci", "label": "commande", "source": "synthetic"}
+{"context": "Récapitulatif : 100 kg de sable de mer, livraison à Bassam. Confirmez-vous cette commande ?", "text": "oui je confirme ?", "label": "commande", "source": "synthetic"}
+{"context": "Récapitulatif : 10 sacs de gravier 5/15, livraison à Bingerville. Confirmez-vous cette commande ?", "text": "pas encore, je réfléchis", "label": "reponse", "source": "synthetic"}
+{"context": "Le concentré volaille est vendu sur devis, l'équipe confirme le prix et le transport.", "text": "Non changez le lieu, c'est à bingerville", "label": "reponse", "source": "synthetic"}
+{"context": "Le gravier 15/25 est vendu sur devis, l'équipe confirme le prix et le transport.", "text": "non changez le lieu, c'est à Yopougon", "label": "reponse", "source": "synthetic"}
+{"context": "Le poussins de ponte est vendu sur devis, l'équipe confirme le prix et le transport.", "text": "passez-moi un conseiller", "label": "humain", "source": "synthetic"}
+{"context": "", "text": "je suis à Angré", "label": "reponse", "source": "synthetic"}
+{"context": "Votre demande : 500 poussins de poussins chair livrés à Koumassi. Je l'enregistre ?", "text": "Oui merci", "label": "commande", "source": "synthetic"}
+{"context": "Bonjour ! Je suis l'assistant de l'entreprise. Comment puis-je vous aider ?", "text": "c'est combien le aliment ponte ?", "label": "reponse", "source": "synthetic"}
+{"context": "Le concentré volaille est vendu sur devis, l'équipe confirme le prix et le transport.", "text": "Non attendez", "label": "reponse", "source": "synthetic"}
+{"context": "Récapitulatif : 500 poussins de sable de mer, livraison à Marcory. Confirmez-vous cette commande ?", "text": "C'est bon", "label": "commande", "source": "synthetic"}
+{"context": "Bonjour ! Je suis l'assistant de l'entreprise. Comment puis-je vous aider ?", "text": "je veux faire une réclamation sur la commande", "label": "humain", "source": "synthetic"}
+{"context": "Donc 100 kg de sable de mer pour Abobo. Vous confirmez ?", "text": "ok confirmé !", "label": "commande", "source": "synthetic"}
+{"context": "Le poussins chair est vendu sur devis, l'équipe confirme le prix et le transport.", "text": "je veux un responsable", "label": "humain", "source": "synthetic"}
+{"context": "Le moellons est vendu sur devis, l'équipe confirme le prix et le transport.", "text": "personne ne répond, c'est inadmissible merci", "label": "humain", "source": "synthetic"}
+{"context": "Récapitulatif : 5 voyages de gravier 5/15, livraison à Marcory. Confirmez-vous cette commande ?", "text": "oui c'est ça", "label": "commande", "source": "synthetic"}
+{"context": "Récapitulatif : 20 sacs de poussins chair, livraison à Yopougon. Confirmez-vous cette commande ?", "text": "je vous recontacte", "label": "reponse", "source": "synthetic"}
+{"context": "Le poussins de ponte est vendu sur devis, l'équipe confirme le prix et le transport.", "text": "j'ai un problème avec ma facture", "label": "humain", "source": "synthetic"}
+{"context": "Pour quelle quantité et quel lieu de livraison ?", "text": "passez-moi un conseiller svp", "label": "humain", "source": "synthetic"}
+{"context": "Donc 20 sacs de sable pour Koumassi. Vous confirmez ?", "text": "Quels sont vos horaires ?", "label": "reponse", "source": "synthetic"}
+{"context": "Je résume : 30 m3 de aliment ponte, enlèvement sur site. C'est bon pour vous ?", "text": "Oui merci", "label": "commande", "source": "synthetic"}
+{"context": "Récapitulatif : un camion de latérite, livraison à Angré. Confirmez-vous cette commande ?", "text": "vous êtes où merci", "label": "reponse", "source": "synthetic"}
+{"context": "", "text": "bonsoir !", "label": "reponse", "source": "synthetic"}
+{"context": "Nous livrons à Cocody et dans tout Abidjan.", "text": "Il ressemble à quoi le latérite ?", "label": "photo", "source": "synthetic"}
+{"context": "Votre demande : 500 poussins de gravier 5/15 livrés à Cocody. Je l'enregistre ?", "text": "Je confirme la commande", "label": "commande", "source": "synthetic"}
+{"context": "Je résume : 500 poussins de moellons, enlèvement sur site. C'est bon pour vous ?", "text": "C'est bon dêh svp", "label": "commande", "source": "synthetic"}
+{"context": "Nous livrons à Cocody et dans tout Abidjan.", "text": "je veux parler au patron", "label": "humain", "source": "synthetic"}
+{"context": "Pour quelle quantité et quel lieu de livraison ?", "text": "Vous êtes où ?", "label": "reponse", "source": "synthetic"}
+{"context": "Votre demande : 2 tonnes de sable de mer livrés à Yopougon. Je l'enregistre ?", "text": "Validé", "label": "commande", "source": "synthetic"}
+{"context": "Nous livrons à Bassam et dans tout Abidjan.", "text": "montre le produit stp", "label": "photo", "source": "synthetic"}
+{"context": "Nous livrons à Yopougon et dans tout Abidjan.", "text": "le sable de mer que j'ai reçu est de mauvaise qualité", "label": "humain", "source": "synthetic"}
+{"context": "Bonjour ! Je suis l'assistant de l'entreprise. Comment puis-je vous aider ?", "text": "vous êtes un robot ? je veux un humain", "label": "humain", "source": "synthetic"}
+{"context": "", "text": "montre le produit stp", "label": "photo", "source": "synthetic"}
+{"context": "Pour quelle quantité et quel lieu de livraison ?", "text": "j'ai un problème avec ma facture", "label": "humain", "source": "synthetic"}
+{"context": "Pour quelle quantité et quel lieu de livraison ?", "text": "je veux voir à quoi ressemble le aliment croissance", "label": "photo", "source": "synthetic"}
+{"context": "", "text": "combien coûte le aliment porc ?", "label": "reponse", "source": "synthetic"}
+{"context": "Récapitulatif : 10 sacs de aliment porc, livraison à Bingerville. Confirmez-vous cette commande ?", "text": "Vous acceptez orange money ?", "label": "reponse", "source": "synthetic"}
+{"context": "Nous livrons à Cocody et dans tout Abidjan.", "text": "Je veux parler à quelqu'un", "label": "humain", "source": "synthetic"}
+{"context": "Pour quelle quantité et quel lieu de livraison ?", "text": "envoie moi l'image du moellons !", "label": "photo", "source": "synthetic"}
+{"context": "Récapitulatif : un camion de poussins chair, livraison à Marcory. Confirmez-vous cette commande ?", "text": "ok validez", "label": "commande", "source": "synthetic"}
+{"context": "Pour quelle quantité et quel lieu de livraison ?", "text": "Je veux parler à quelqu'un", "label": "humain", "source": "synthetic"}
+{"context": "Le aliment ponte est vendu sur devis, l'équipe confirme le prix et le transport.", "text": "Pas encore, je réfléchis svp", "label": "reponse", "source": "synthetic"}
+{"context": "", "text": "vous livrez à Anyama ?", "label": "reponse", "source": "synthetic"}
+{"context": "Pour quelle quantité et quel lieu de livraison ?", "text": "envoie moi l'image du aliment ponte ?", "label": "photo", "source": "synthetic"}
+{"context": "", "text": "il manque des sacs dans ma livraison", "label": "humain", "source": "synthetic"}
+{"context": "Le aliment poussin démarrage est vendu sur devis, l'équipe confirme le prix et le transport.", "text": "il manque des sacs dans ma livraison", "label": "humain", "source": "synthetic"}
+{"context": "Nous livrons à Anyama et dans tout Abidjan.", "text": "votre livraison est arrivée en retard, je ne suis pas content", "label": "humain", "source": "synthetic"}
+{"context": "Bonjour ! Je suis l'assistant de l'entreprise. Comment puis-je vous aider ?", "text": "je veux voir à quoi ressemble le aliment croissance", "label": "photo", "source": "synthetic"}
+{"context": "Récapitulatif : 10 sacs de gravier 15/25, livraison à Koumassi. Confirmez-vous cette commande ?", "text": "oui..", "label": "commande", "source": "synthetic"}
+{"context": "Votre demande : 500 poussins de poussins de ponte livrés à Koumassi. Je l'enregistre ?", "text": "oui je confirme", "label": "commande", "source": "synthetic"}
+{"context": "Le concentré volaille est vendu sur devis, l'équipe confirme le prix et le transport.", "text": "faites un prix, je prends beaucoup", "label": "humain", "source": "synthetic"}
+{"context": "Bonjour ! Je suis l'assistant de l'entreprise. Comment puis-je vous aider ?", "text": "je veux une facture", "label": "humain", "source": "synthetic"}
+{"context": "Je résume : 30 m3 de concentré volaille, enlèvement sur site. C'est bon pour vous ?", "text": "ok validez svp", "label": "commande", "source": "synthetic"}
+{"context": "", "text": "je peux voir le poussins chair ?", "label": "photo", "source": "synthetic"}
+{"context": "Nous livrons à Yopougon et dans tout Abidjan.", "text": "c'est une grosse commande, je veux discuter avec le commercial svp", "label": "humain", "source": "synthetic"}
+{"context": "Bonjour ! Je suis l'assistant de l'entreprise. Comment puis-je vous aider ?", "text": "je veux une facture", "label": "humain", "source": "synthetic"}
+{"context": "Récapitulatif : 100 kg de aliment croissance, livraison à Marcory. Confirmez-vous cette commande ?", "text": "Exactement, vous pouvez enregistrer", "label": "commande", "source": "synthetic"}
+{"context": "Le concentré volaille est vendu sur devis, l'équipe confirme le prix et le transport.", "text": "montrez-moi le latérite", "label": "photo", "source": "synthetic"}
+{"context": "Donc 10 sacs de aliment porc pour Bassam. Vous confirmez ?", "text": "oui go", "label": "commande", "source": "synthetic"}
+{"context": "Le sable est vendu sur devis, l'équipe confirme le prix et le transport.", "text": "avez-vous du aliment ponte ?", "label": "reponse", "source": "synthetic"}
+{"context": "Votre demande : 30 m3 de latérite livrés à Angré. Je l'enregistre ?", "text": "livraison possible demain ?", "label": "reponse", "source": "synthetic"}
+{"context": "Récapitulatif : 20 sacs de aliment poussin démarrage, livraison à Yopougon. Confirmez-vous cette commande ?", "text": "D'accord", "label": "commande", "source": "synthetic"}
+{"context": "Le concentré volaille est vendu sur devis, l'équipe confirme le prix et le transport.", "text": "Le aliment ponte est disponible !", "label": "reponse", "source": "synthetic"}
+{"context": "Nous livrons à Anyama et dans tout Abidjan.", "text": "passez-moi un conseiller..", "label": "humain", "source": "synthetic"}
+{"context": "Nous livrons à Angré et dans tout Abidjan.", "text": "Passez-moi un conseiller !", "label": "humain", "source": "synthetic"}
+{"context": "Récapitulatif : 5 voyages de concentré volaille, livraison à Bingerville. Confirmez-vous cette commande ?", "text": "oui merci", "label": "commande", "source": "synthetic"}
+{"context": "Le concentré volaille est vendu sur devis, l'équipe confirme le prix et le transport.", "text": "faites un prix, je prends beaucoup", "label": "humain", "source": "synthetic"}
+{"context": "Nous livrons à Abobo et dans tout Abidjan.", "text": "vous livrez à Marcory..", "label": "reponse", "source": "synthetic"}
+{"context": "Nous livrons à Cocody et dans tout Abidjan.", "text": "salut..", "label": "reponse", "source": "synthetic"}
+{"context": "Récapitulatif : 500 poussins de aliment ponte, livraison à Bingerville. Confirmez-vous cette commande ?", "text": "C'est bon..", "label": "commande", "source": "synthetic"}
+{"context": "Pour quelle quantité et quel lieu de livraison ?", "text": "Je veux 10 sacs de poussins chair", "label": "reponse", "source": "synthetic"}
+{"context": "Bonjour ! Je suis l'assistant de l'entreprise. Comment puis-je vous aider ?", "text": "il manque des sacs dans ma livraison", "label": "humain", "source": "synthetic"}
+{"context": "Donc 20 sacs de aliment porc pour Anyama. Vous confirmez ?", "text": "ok c'est bon pour moi ?", "label": "commande", "source": "synthetic"}
+{"context": "Donc 2 tonnes de tout-venant pour Bassam. Vous confirmez ?", "text": "ok c'est bon pour moi", "label": "commande", "source": "synthetic"}
+{"context": "Nous livrons à Yopougon et dans tout Abidjan.", "text": "ajoutez 5 voyages de tout-venant", "label": "reponse", "source": "synthetic"}
+{"context": "Votre demande : 30 m3 de aliment croissance livrés à Koumassi. Je l'enregistre ?", "text": "C'est bon", "label": "commande", "source": "synthetic"}
+{"context": "Bonjour ! Je suis l'assistant de l'entreprise. Comment puis-je vous aider ?", "text": "le sable de mer que j'ai reçu est de mauvaise qualité", "label": "humain", "source": "synthetic"}
+{"context": "Je résume : 5 voyages de poussins de ponte, enlèvement sur site. C'est bon pour vous ?", "text": "Non, plutôt 10 sacs", "label": "reponse", "source": "synthetic"}
+{"context": "Bonjour ! Je suis l'assistant de l'entreprise. Comment puis-je vous aider ?", "text": "vous êtes un robot ? je veux un humain", "label": "humain", "source": "synthetic"}
+{"context": "Pour quelle quantité et quel lieu de livraison ?", "text": "je veux parler au patron", "label": "humain", "source": "synthetic"}
+{"context": "Pour quelle quantité et quel lieu de livraison ?", "text": "quel aliment pour des poulets de 3 semaines ?", "label": "reponse", "source": "synthetic"}
+{"context": "Récapitulatif : 500 poussins de concentré volaille, livraison à Abobo. Confirmez-vous cette commande ?", "text": "Oui merci", "label": "commande", "source": "synthetic"}
+{"context": "Votre demande : 10 sacs de sable livrés à Bassam. Je l'enregistre ?", "text": "validé", "label": "commande", "source": "synthetic"}
+{"context": "Récapitulatif : 20 sacs de latérite, livraison à Angré. Confirmez-vous cette commande ?", "text": "Bonsoir", "label": "reponse", "source": "synthetic"}
+{"context": "Donc 5 voyages de aliment ponte pour Bingerville. Vous confirmez ?", "text": "le transport coûte combien jusqu'à Yopougon..", "label": "reponse", "source": "synthetic"}
+{"context": "Pour quelle quantité et quel lieu de livraison ?", "text": "envoyez la photo du gravier 15/25", "label": "photo", "source": "synthetic"}
+{"context": "Bonjour ! Je suis l'assistant de l'entreprise. Comment puis-je vous aider ?", "text": "Montrez-moi le aliment porc", "label": "photo", "source": "synthetic"}
+{"context": "Le gravier 15/25 est vendu sur devis, l'équipe confirme le prix et le transport.", "text": "vous acceptez orange money ?", "label": "reponse", "source": "synthetic"}
+{"context": "Le sable est vendu sur devis, l'équipe confirme le prix et le transport.", "text": "montrez-moi le concentré volaille ?", "label": "photo", "source": "synthetic"}
+{"context": "Bonjour ! Je suis l'assistant de l'entreprise. Comment puis-je vous aider ?", "text": "envoie moi l'image du sable de mer", "label": "photo", "source": "synthetic"}
+{"context": "", "text": "Montrez-moi le tout-venant", "label": "photo", "source": "synthetic"}
+{"context": "Bonjour ! Je suis l'assistant de l'entreprise. Comment puis-je vous aider ?", "text": "ok merci pour l'info", "label": "reponse", "source": "synthetic"}
+{"context": "Votre demande : 100 kg de gravier 15/25 livrés à Bassam. Je l'enregistre ?", "text": "ajoutez 500 poussins de poussins de ponte", "label": "reponse", "source": "synthetic"}
+{"context": "Nous livrons à Angré et dans tout Abidjan.", "text": "c'est une grosse commande, je veux discuter avec le commercial ?", "label": "humain", "source": "synthetic"}
+{"context": "Le moellons est vendu sur devis, l'équipe confirme le prix et le transport.", "text": "je veux parler au patron", "label": "humain", "source": "synthetic"}
+{"context": "Pour quelle quantité et quel lieu de livraison ?", "text": "Il manque des sacs dans ma livraison !", "label": "humain", "source": "synthetic"}
+{"context": "Le gravier 5/15 est vendu sur devis, l'équipe confirme le prix et le transport.", "text": "je veux parler au patron", "label": "humain", "source": "synthetic"}
+{"context": "Le aliment ponte est vendu sur devis, l'équipe confirme le prix et le transport.", "text": "montrez-moi le latérite", "label": "photo", "source": "synthetic"}
+{"context": "Pour quelle quantité et quel lieu de livraison ?", "text": "Je veux une remise", "label": "humain", "source": "synthetic"}
+{"context": "Pour quelle quantité et quel lieu de livraison ?", "text": "non changez le lieu, c'est à Yopougon", "label": "reponse", "source": "synthetic"}
+{"context": "Donc 500 poussins de gravier 15/25 pour Anyama. Vous confirmez ?", "text": "Salut merci", "label": "reponse", "source": "synthetic"}
+{"context": "Votre demande : 30 m3 de concentré volaille livrés à Bassam. Je l'enregistre ?", "text": "oui je confirme", "label": "commande", "source": "synthetic"}
+{"context": "Pour quelle quantité et quel lieu de livraison ?", "text": "non, plutôt 10 sacs", "label": "reponse", "source": "synthetic"}
+{"context": "Nous livrons à Cocody et dans tout Abidjan.", "text": "montrez-moi le sable", "label": "photo", "source": "synthetic"}
+{"context": "Nous livrons à Bassam et dans tout Abidjan.", "text": "Bonjour", "label": "reponse", "source": "synthetic"}
+{"context": "Pour quelle quantité et quel lieu de livraison ?", "text": "votre livraison est arrivée en retard, je ne suis pas content", "label": "humain", "source": "synthetic"}
+{"context": "", "text": "il manque des sacs dans ma livraison", "label": "humain", "source": "synthetic"}
+{"context": "Pour quelle quantité et quel lieu de livraison ?", "text": "je veux parler au patron", "label": "humain", "source": "synthetic"}
+{"context": "Pour quelle quantité et quel lieu de livraison ?", "text": "je veux parler au patron", "label": "humain", "source": "synthetic"}
+{"context": "Nous livrons à Anyama et dans tout Abidjan.", "text": "quels sont vos horaires ?", "label": "reponse", "source": "synthetic"}
+{"context": "Bonjour ! Je suis l'assistant de l'entreprise. Comment puis-je vous aider ?", "text": "Je veux une facture..", "label": "humain", "source": "synthetic"}
+{"context": "Nous livrons à Bassam et dans tout Abidjan.", "text": "vous acceptez orange money ?", "label": "reponse", "source": "synthetic"}
+{"context": "Nous livrons à Yopougon et dans tout Abidjan.", "text": "Vous avez une photo du poussins de ponte ?", "label": "photo", "source": "synthetic"}
+{"context": "Nous livrons à Marcory et dans tout Abidjan.", "text": "salut", "label": "reponse", "source": "synthetic"}
+{"context": "Bonjour ! Je suis l'assistant de l'entreprise. Comment puis-je vous aider ?", "text": "Je peux voir le aliment poussin démarrage ?", "label": "photo", "source": "synthetic"}
+{"context": "Bonjour ! Je suis l'assistant de l'entreprise. Comment puis-je vous aider ?", "text": "envoie moi l'image du latérite !", "label": "photo", "source": "synthetic"}
+{"context": "Bonjour ! Je suis l'assistant de l'entreprise. Comment puis-je vous aider ?", "text": "je peux voir le aliment ponte ?", "label": "photo", "source": "synthetic"}
+{"context": "Nous livrons à Cocody et dans tout Abidjan.", "text": "ajoutez 2 tonnes de poussins chair", "label": "reponse", "source": "synthetic"}
+{"context": "Récapitulatif : 500 poussins de sable de mer, livraison à Abobo. Confirmez-vous cette commande ?", "text": "bonsoir !", "label": "reponse", "source": "synthetic"}
+{"context": "Le gravier 5/15 est vendu sur devis, l'équipe confirme le prix et le transport.", "text": "c'est une grosse commande, je veux discuter avec le commercial", "label": "humain", "source": "synthetic"}
+{"context": "Donc 30 m3 de gravier 5/15 pour Abobo. Vous confirmez ?", "text": "c'est bon", "label": "commande", "source": "synthetic"}
+{"context": "Récapitulatif : 100 kg de concentré volaille, livraison à Angré. Confirmez-vous cette commande ?", "text": "ok merci pour l'info", "label": "reponse", "source": "synthetic"}
+{"context": "Nous livrons à Cocody et dans tout Abidjan.", "text": "les poussins sont arrivés malades merci", "label": "humain", "source": "synthetic"}
+{"context": "", "text": "le poussins chair que j'ai reçu est de mauvaise qualité", "label": "humain", "source": "synthetic"}
+{"context": "Récapitulatif : 2 tonnes de gravier 5/15, livraison à Anyama. Confirmez-vous cette commande ?", "text": "oui merci", "label": "commande", "source": "synthetic"}
+{"context": "Nous livrons à Koumassi et dans tout Abidjan.", "text": "montrez-moi le aliment poussin démarrage", "label": "photo", "source": "synthetic"}
+{"context": "Nous livrons à Anyama et dans tout Abidjan.", "text": "Je veux voir à quoi ressemble le moellons", "label": "photo", "source": "synthetic"}
+{"context": "", "text": "montrez-moi le poussins chair", "label": "photo", "source": "synthetic"}
+{"context": "", "text": "je veux 500 poussins de tout-venant", "label": "reponse", "source": "synthetic"}
+{"context": "Récapitulatif : 20 sacs de moellons, livraison à Angré. Confirmez-vous cette commande ?", "text": "validé", "label": "commande", "source": "synthetic"}
+{"context": "Nous livrons à Yopougon et dans tout Abidjan.", "text": "montrez-moi le sable de mer", "label": "photo", "source": "synthetic"}
+{"context": "Pour quelle quantité et quel lieu de livraison ?", "text": "les poussins sont arrivés malades !", "label": "humain", "source": "synthetic"}
+{"context": "Donc 500 poussins de sable pour Bingerville. Vous confirmez ?", "text": "Oui", "label": "commande", "source": "synthetic"}
+{"context": "Le sable de mer est vendu sur devis, l'équipe confirme le prix et le transport.", "text": "bonjour ?", "label": "reponse", "source": "synthetic"}
+{"context": "Donc 2 tonnes de aliment croissance pour Abobo. Vous confirmez ?", "text": "il me faut combien de sable pour une dalle de 50 m2 ?", "label": "reponse", "source": "synthetic"}
+{"context": "Donc 30 m3 de tout-venant pour Cocody. Vous confirmez ?", "text": "parfait enregistrez ?", "label": "commande", "source": "synthetic"}
+{"context": "Donc 100 kg de aliment ponte pour Angré. Vous confirmez ?", "text": "bonjour", "label": "reponse", "source": "synthetic"}
+{"context": "Donc 30 m3 de aliment poussin démarrage pour Angré. Vous confirmez ?", "text": "oui allez-y", "label": "commande", "source": "synthetic"}
+{"context": "Votre demande : 10 sacs de concentré volaille livrés à Abobo. Je l'enregistre ?", "text": "ok validez ?", "label": "commande", "source": "synthetic"}
+{"context": "Pour quelle quantité et quel lieu de livraison ?", "text": "vous êtes un robot ? je veux un humain", "label": "humain", "source": "synthetic"}
+{"context": "", "text": "je veux une facture", "label": "humain", "source": "synthetic"}
+{"context": "Votre demande : 500 poussins de gravier 5/15 livrés à Koumassi. Je l'enregistre ?", "text": "je confirme la commande", "label": "commande", "source": "synthetic"}
+{"context": "Je résume : 10 sacs de latérite, enlèvement sur site. C'est bon pour vous ?", "text": "D'accord je valide", "label": "commande", "source": "synthetic"}
+{"context": "Le poussins chair est vendu sur devis, l'équipe confirme le prix et le transport.", "text": "je veux une facture", "label": "humain", "source": "synthetic"}
+{"context": "Nous livrons à Cocody et dans tout Abidjan.", "text": "je veux parler à quelqu'un", "label": "humain", "source": "synthetic"}
+{"context": "", "text": "envoie moi l'image du tout-venant ?", "label": "photo", "source": "synthetic"}
+{"context": "Votre demande : 30 m3 de tout-venant livrés à Angré. Je l'enregistre ?", "text": "le moellons est disponible svp", "label": "reponse", "source": "synthetic"}
+{"context": "Donc 500 poussins de tout-venant pour Anyama. Vous confirmez ?", "text": "c'est bon dêh", "label": "commande", "source": "synthetic"}
+{"context": "", "text": "Je veux voir à quoi ressemble le aliment croissance", "label": "photo", "source": "synthetic"}
+{"context": "", "text": "les poussins sont arrivés malades", "label": "humain", "source": "synthetic"}
+{"context": "Récapitulatif : 5 voyages de gravier 15/25, livraison à Angré. Confirmez-vous cette commande ?", "text": "ok confirmé", "label": "commande", "source": "synthetic"}
+{"context": "", "text": "il ressemble à quoi le aliment croissance ?", "label": "photo", "source": "synthetic"}
+{"context": "", "text": "je veux voir à quoi ressemble le poussins chair", "label": "photo", "source": "synthetic"}
+{"context": "Bonjour ! Je suis l'assistant de l'entreprise. Comment puis-je vous aider ?", "text": "je veux une remise", "label": "humain", "source": "synthetic"}
+{"context": "Bonjour ! Je suis l'assistant de l'entreprise. Comment puis-je vous aider ?", "text": "Je suis à bassam !", "label": "reponse", "source": "synthetic"}
+{"context": "Donc un camion de poussins de ponte pour Marcory. Vous confirmez ?", "text": "Quels sont vos horaires ?", "label": "reponse", "source": "synthetic"}
+{"context": "Je résume : 10 sacs de aliment croissance, enlèvement sur site. C'est bon pour vous ?", "text": "c'est quoi la différence entre gravier 5/15 et 15/25 ?", "label": "reponse", "source": "synthetic"}
+{"context": "Récapitulatif : 2 tonnes de aliment croissance, livraison à Angré. Confirmez-vous cette commande ?", "text": "oui go", "label": "commande", "source": "synthetic"}
+{"context": "Le gravier 15/25 est vendu sur devis, l'équipe confirme le prix et le transport.", "text": "Avez-vous du aliment porc ?", "label": "reponse", "source": "synthetic"}
+{"context": "Bonjour ! Je suis l'assistant de l'entreprise. Comment puis-je vous aider ?", "text": "bonsoir", "label": "reponse", "source": "synthetic"}
+{"context": "Je résume : 500 poussins de aliment ponte, enlèvement sur site. C'est bon pour vous ?", "text": "avez-vous du sable de mer ?", "label": "reponse", "source": "synthetic"}
+{"context": "Nous livrons à Anyama et dans tout Abidjan.", "text": "il ressemble à quoi le sable de mer ?", "label": "photo", "source": "synthetic"}
+{"context": "", "text": "envoie moi l'image du latérite", "label": "photo", "source": "synthetic"}
+{"context": "Le poussins de ponte est vendu sur devis, l'équipe confirme le prix et le transport.", "text": "Photo du gravier 5/15 svp ?", "label": "photo", "source": "synthetic"}
+{"context": "Récapitulatif : 5 voyages de latérite, livraison à Bassam. Confirmez-vous cette commande ?", "text": "oui merci", "label": "commande", "source": "synthetic"}
+{"context": "Récapitulatif : un camion de gravier 15/25, livraison à Koumassi. Confirmez-vous cette commande ?", "text": "ok validez", "label": "commande", "source": "synthetic"}
+{"context": "", "text": "je veux un responsable", "label": "humain", "source": "synthetic"}
+{"context": "Bonjour ! Je suis l'assistant de l'entreprise. Comment puis-je vous aider ?", "text": "Je peux voir le sable merci", "label": "photo", "source": "synthetic"}
+{"context": "Pour quelle quantité et quel lieu de livraison ?", "text": "livraison possible demain ?", "label": "reponse", "source": "synthetic"}
+{"context": "", "text": "vous êtes un robot ? je veux un humain", "label": "humain", "source": "synthetic"}
+{"context": "Nous livrons à Yopougon et dans tout Abidjan.", "text": "envoyez la photo du sable", "label": "photo", "source": "synthetic"}
+{"context": "Nous livrons à Anyama et dans tout Abidjan.", "text": "Je veux voir à quoi ressemble le aliment ponte", "label": "photo", "source": "synthetic"}
+{"context": "Nous livrons à Bingerville et dans tout Abidjan.", "text": "réclamation", "label": "humain", "source": "synthetic"}
+{"context": "Le moellons est vendu sur devis, l'équipe confirme le prix et le transport.", "text": "c'est une grosse commande, je veux discuter avec le commercial", "label": "humain", "source": "synthetic"}
+{"context": "Récapitulatif : 30 m3 de sable de mer, livraison à Abobo. Confirmez-vous cette commande ?", "text": "C'est quoi la différence entre gravier 5/15 et 15/25 ?", "label": "reponse", "source": "synthetic"}
+{"context": "Votre demande : 100 kg de aliment ponte livrés à Yopougon. Je l'enregistre ?", "text": "oui je confirme", "label": "commande", "source": "synthetic"}
+{"context": "Bonjour ! Je suis l'assistant de l'entreprise. Comment puis-je vous aider ?", "text": "Vous acceptez orange money ?", "label": "reponse", "source": "synthetic"}
+{"context": "", "text": "c'est une grosse commande, je veux discuter avec le commercial", "label": "humain", "source": "synthetic"}
+{"context": "Nous livrons à Koumassi et dans tout Abidjan.", "text": "vous avez une photo du gravier 5/15 ?", "label": "photo", "source": "synthetic"}
+{"context": "Donc 30 m3 de aliment porc pour Bingerville. Vous confirmez ?", "text": "vous livrez à Marcory ?", "label": "reponse", "source": "synthetic"}
+{"context": "", "text": "Personne ne répond, c'est inadmissible", "label": "humain", "source": "synthetic"}
+{"context": "Le tout-venant est vendu sur devis, l'équipe confirme le prix et le transport.", "text": "Livraison possible demain ?", "label": "reponse", "source": "synthetic"}
+{"context": "Votre demande : 20 sacs de moellons livrés à Anyama. Je l'enregistre ?", "text": "c'est bon dêh", "label": "commande", "source": "synthetic"}
+{"context": "", "text": "je vous recontacte !", "label": "reponse", "source": "synthetic"}
+{"context": "", "text": "personne ne répond, c'est inadmissible", "label": "humain", "source": "synthetic"}
+{"context": "Pour quelle quantité et quel lieu de livraison ?", "text": "photo du poussins chair svp", "label": "photo", "source": "synthetic"}
+{"context": "Bonjour ! Je suis l'assistant de l'entreprise. Comment puis-je vous aider ?", "text": "pas encore, je réfléchis", "label": "reponse", "source": "synthetic"}
+{"context": "Votre demande : 500 poussins de poussins chair livrés à Yopougon. Je l'enregistre ?", "text": "exactement, vous pouvez enregistrer..", "label": "commande", "source": "synthetic"}
+{"context": "", "text": "envoie moi l'image du tout-venant", "label": "photo", "source": "synthetic"}
+{"context": "Pour quelle quantité et quel lieu de livraison ?", "text": "Vous pouvez m'envoyer une photo ?", "label": "photo", "source": "synthetic"}
+{"context": "Bonjour ! Je suis l'assistant de l'entreprise. Comment puis-je vous aider ?", "text": "vous avez une photo du aliment porc ?", "label": "photo", "source": "synthetic"}
+{"context": "Je résume : 20 sacs de aliment porc, enlèvement sur site. C'est bon pour vous ?", "text": "ok validez", "label": "commande", "source": "synthetic"}
+{"context": "Récapitulatif : 100 kg de aliment porc, livraison à Koumassi. Confirmez-vous cette commande ?", "text": "Oui go", "label": "commande", "source": "synthetic"}
+{"context": "Nous livrons à Koumassi et dans tout Abidjan.", "text": "je peux voir le poussins de ponte ?", "label": "photo", "source": "synthetic"}
+{"context": "Le tout-venant est vendu sur devis, l'équipe confirme le prix et le transport.", "text": "Ok merci pour l'info", "label": "reponse", "source": "synthetic"}
+{"context": "Votre demande : 500 poussins de tout-venant livrés à Koumassi. Je l'enregistre ?", "text": "oui merci", "label": "commande", "source": "synthetic"}
+{"context": "Le sable est vendu sur devis, l'équipe confirme le prix et le transport.", "text": "vous pouvez m'envoyer une photo ?", "label": "photo", "source": "synthetic"}
+{"context": "Donc 10 sacs de tout-venant pour Marcory. Vous confirmez ?", "text": "parfait enregistrez", "label": "commande", "source": "synthetic"}
+{"context": "Nous livrons à Bingerville et dans tout Abidjan.", "text": "rappelez-moi au plus vite ?", "label": "humain", "source": "synthetic"}
+{"context": "Donc 20 sacs de poussins de ponte pour Koumassi. Vous confirmez ?", "text": "Bonjour", "label": "reponse", "source": "synthetic"}
+{"context": "Bonjour ! Je suis l'assistant de l'entreprise. Comment puis-je vous aider ?", "text": "Combien coûte le sable de mer ?", "label": "reponse", "source": "synthetic"}
+{"context": "Le sable est vendu sur devis, l'équipe confirme le prix et le transport.", "text": "réclamation", "label": "humain", "source": "synthetic"}
+{"context": "Le concentré volaille est vendu sur devis, l'équipe confirme le prix et le transport.", "text": "montre le produit stp..", "label": "photo", "source": "synthetic"}
+{"context": "Le latérite est vendu sur devis, l'équipe confirme le prix et le transport.", "text": "réclamation", "label": "humain", "source": "synthetic"}
+{"context": "Je résume : 2 tonnes de moellons, enlèvement sur site. C'est bon pour vous ?", "text": "c'est ok", "label": "commande", "source": "synthetic"}
+{"context": "Votre demande : 5 voyages de aliment croissance livrés à Bingerville. Je l'enregistre ?", "text": "livraison possible demain ?", "label": "reponse", "source": "synthetic"}
+{"context": "Le tout-venant est vendu sur devis, l'équipe confirme le prix et le transport.", "text": "Montre le produit stp", "label": "photo", "source": "synthetic"}
+{"context": "Nous livrons à Bassam et dans tout Abidjan.", "text": "photo du sable svp", "label": "photo", "source": "synthetic"}
+{"context": "Donc 20 sacs de aliment poussin démarrage pour Bassam. Vous confirmez ?", "text": "ok validez", "label": "commande", "source": "synthetic"}
+{"context": "Donc 500 poussins de sable de mer pour Bassam. Vous confirmez ?", "text": "oui ?", "label": "commande", "source": "synthetic"}
+{"context": "", "text": "Montre le produit stp svp", "label": "photo", "source": "synthetic"}
+{"context": "Le aliment croissance est vendu sur devis, l'équipe confirme le prix et le transport.", "text": "photo du poussins chair svp", "label": "photo", "source": "synthetic"}
+{"context": "Le aliment croissance est vendu sur devis, l'équipe confirme le prix et le transport.", "text": "je veux faire une réclamation sur la commande", "label": "humain", "source": "synthetic"}
+{"context": "Le aliment ponte est vendu sur devis, l'équipe confirme le prix et le transport.", "text": "montre le produit stp", "label": "photo", "source": "synthetic"}
+{"context": "Je résume : un camion de tout-venant, enlèvement sur site. C'est bon pour vous ?", "text": "oui merci", "label": "commande", "source": "synthetic"}
+{"context": "Le sable de mer est vendu sur devis, l'équipe confirme le prix et le transport.", "text": "envoie moi l'image du poussins de ponte", "label": "photo", "source": "synthetic"}
+{"context": "Pour quelle quantité et quel lieu de livraison ?", "text": "montre le produit stp", "label": "photo", "source": "synthetic"}
+{"context": "Donc un camion de aliment ponte pour Anyama. Vous confirmez ?", "text": "oui c'est ça merci", "label": "commande", "source": "synthetic"}
+{"context": "Pour quelle quantité et quel lieu de livraison ?", "text": "non, plutôt 2 tonnes", "label": "reponse", "source": "synthetic"}
+{"context": "Le poussins chair est vendu sur devis, l'équipe confirme le prix et le transport.", "text": "le transport coûte combien jusqu'à Koumassi ?", "label": "reponse", "source": "synthetic"}
+{"context": "Nous livrons à Cocody et dans tout Abidjan.", "text": "montre le produit stp", "label": "photo", "source": "synthetic"}
+{"context": "Bonjour ! Je suis l'assistant de l'entreprise. Comment puis-je vous aider ?", "text": "faites un prix, je prends beaucoup..", "label": "humain", "source": "synthetic"}

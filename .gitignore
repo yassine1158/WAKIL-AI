@@ -10,3 +10,4 @@ models/*.npz
 !models/.gitkeep
 .gradio/
 flagged/
+models/*.json
