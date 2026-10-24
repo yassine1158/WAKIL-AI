@@ -26,10 +26,25 @@ class WakilService:
         self.models_dir, self.outputs_dir, self.data_dir = models_dir, outputs_dir, data_dir
         self.replay_data, self.teacher = replay_data, None
         self.digit_model, self.digit_metadata = None, {}
-        self._load_digit_model()
         self.text_models = {}                           # name -> (model, tokenizer, metadata)
+        self._file_times = None
+        self._refresh()
+
+    def _model_file_times(self):
+        names = [PERSONAL_DIGIT_MODEL, DIGIT_MODEL] + list(TEXT_MODELS.values())
+        paths = [os.path.join(self.models_dir, name) for name in names]
+        return {path: os.path.getmtime(path) for path in paths if os.path.exists(path)}
+
+    def _refresh(self):
+        """(Re)loads the models when their files changed, e.g. after the autopilot saved a better one."""
+        times = self._model_file_times()
+        if times == self._file_times:
+            return
+        self._file_times = times
+        self._load_digit_model()
+        self.text_models = {}
         for name, filename in TEXT_MODELS.items():
-            path = os.path.join(models_dir, filename)
+            path = os.path.join(self.models_dir, filename)
             if os.path.exists(path):
                 self.text_models[name] = load_language_model(path)
 
@@ -56,6 +71,7 @@ class WakilService:
     def teach(self, image, label):
         """The user says the drawing `image` (28x28 MNIST-style array) is the digit `label`.
         Stores the example, learns from it, and saves the personal model. Returns a message."""
+        self._refresh()
         if self.digit_model is None:
             return "No digit model yet. Train it first: python train.py"
         if image is None:
@@ -73,6 +89,7 @@ class WakilService:
                         check_accuracy=report["check_after"])
         self.digit_model.save(os.path.join(self.models_dir, PERSONAL_DIGIT_MODEL), metadata)
         self.digit_metadata = metadata
+        self._file_times = self._model_file_times()      # our own save: no need to reload
         probs = self.digit_model.predict_proba(np.asarray(image, dtype=np.float32).reshape(1, 784) / 255.0)[0]
         return (f"Learned! This drawing is now read as **{int(np.argmax(probs))}** "
                 f"({probs[label]:.0%} for {label}). Your drawings learned so far: {len(teacher)}, "
@@ -84,11 +101,13 @@ class WakilService:
         path = os.path.join(self.models_dir, PERSONAL_DIGIT_MODEL)
         if os.path.exists(path):
             os.remove(path)
-        self._load_digit_model()
+        self._file_times = None
+        self._refresh()
         return "Back to the original model (your saved drawings are kept in data/my_digits.npz)."
 
     def read_digit(self, image):
         """image: drawing as a numpy array. Returns (probabilities dict, 28x28 image, message)."""
+        self._refresh()
         if self.digit_model is None:
             return {}, None, "No digit model yet. Train it first: python train.py"
         if image is None or np.asarray(image).size == 0:
@@ -107,6 +126,7 @@ class WakilService:
     # -------------------------------------------------------------------- text
     def write(self, prompt, model_name=None, length=300, temperature=0.8, seed=None):
         """Continues `prompt`. Returns (text, message)."""
+        self._refresh()
         if not self.text_models:
             return "", "No language model yet. Train one first: python train_lm.py --arch transformer"
         model_name = model_name if model_name in self.text_models else next(iter(self.text_models))
@@ -125,6 +145,7 @@ class WakilService:
     # -------------------------------------------------------------------- info
     def info(self):
         """Markdown description of the loaded models."""
+        self._refresh()
         lines = ["## Models loaded from `" + self.models_dir + "/`", ""]
         if self.digit_model is None:
             lines.append("- **Digit reader:** not trained yet (`python train.py`)")
@@ -137,6 +158,8 @@ class WakilService:
             if os.path.exists(test_path):
                 with open(test_path) as f:
                     line += f", **test accuracy {json.load(f)['test_accuracy']:.2%}** (10,000 unseen images)"
+            if "autopilot_rounds" in meta:
+                line += f" | **improved on its own** by the autopilot ({meta['autopilot_rounds']} rounds)"
             if "personal_examples" in meta:
                 line += (f" | **personal version**: learned from {meta['personal_examples']} of your drawings "
                          f"(MNIST check {meta.get('check_accuracy', float('nan')):.1%})")

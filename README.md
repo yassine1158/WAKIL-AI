@@ -49,6 +49,22 @@ Experiment (`wakil_ai/continual.py`): digits **rotated by 40°**, a style the mo
 
 This is learning from human feedback, not "learning alone": the model still needs examples and the right answers.
 
+### Autopilot: Wakil AI improves on its own
+
+```bash
+python autolearn.py              # runs until Ctrl+C; nothing to do while it runs
+python autolearn.py --rounds 8   # or a fixed number of rounds
+```
+
+| Model | How it learns with no human | Result (our run) |
+|---|---|---|
+| Digits | **Creates its own new examples**: rotates, shifts, resizes and thickens the digits it already has. A rotated 7 is still a 7, so the label stays right (data augmentation). Each batch mixes 50% new examples and 50% originals | 8 rounds, ~1 min: test digits rotated by 40° **54.6% → 82.6%**, normal MNIST test 97.78% → 97.44% |
+| Text | **Reads its text again**. Next-character prediction is self-supervised: the answer is the next character of the text, so no human labels are needed | Transformer validation loss **1.722 → 1.707** after 2 rounds |
+
+**Safety:** training continues in memory, but a model file is replaced only when the new version is better on held-out data, and (for digits) the accuracy on normal MNIST has not dropped more than 0.5 points since the first run. The learning rate is 0.05 for the first 4 digit rounds, then 0.01 to settle down; that's why the first rounds usually aren't saved. A running `app.py` reloads improved models automatically. History: `outputs/autolearn_log.csv`.
+
+What does **not** work (we tested it): learning from its own confident answers (*self-training*). On 300 rotated digits, 42 of the 131 drawings it was ≥95% sure about were wrong, and accuracy didn't improve: "confident" doesn't mean "correct", and learning from its own mistakes only reinforces them. Learning something new always needs new information: real data, labels, or transformations that are guaranteed to keep the right answer.
+
 ## Results
 
 ### Digit classifier
@@ -102,7 +118,7 @@ python -m venv .venv
 # Windows: .venv\Scripts\activate      macOS/Linux: source .venv/bin/activate
 pip install -r requirements.txt
 
-python -m pytest              # 42 tests, ~2 seconds
+python -m pytest              # 46 tests, ~3 seconds
 python train.py               # downloads MNIST (11 MB) once, trains, saves models/wakil_ai_mnist.npz
 python evaluate.py            # test accuracy + figures in outputs/
 python predict.py --test-index 0 1 2
@@ -116,6 +132,7 @@ python generate.py --model models/wakil_gpt.npz --prompt "ROMEO:"
 
 pip install -r requirements-app.txt
 python app.py                 # the Wakil AI app in your browser
+python autolearn.py           # autopilot: keeps improving the models on its own
 ```
 
 ## Usage
@@ -163,10 +180,12 @@ WAKIL-AI/
 │   ├── language_model.py     # bigram baseline, CharMLP with embeddings, training, generation
 │   ├── transformer.py        # TinyGPT: attention, LayerNorm, blocks, Adam (forward + backward)
 │   ├── service.py            # app logic: load models, read a drawing, write text, teach (no UI code)
-│   └── continual.py          # continual learning from corrections: replay + safety check
+│   ├── continual.py          # continual learning from corrections: replay + safety check
+│   └── autopilot.py          # self-improvement: self-made digit examples, text re-reading, safe saving
 ├── train.py  evaluate.py  predict.py
 ├── train_lm.py  generate.py
 ├── app.py                    # the interface only (Gradio)
+├── autolearn.py              # the autopilot loop
 ├── tests/                    # gradient checks + behaviour tests (run by GitHub Actions)
 └── notebooks/
     ├── 01_phase1_neural_network_from_scratch.ipynb   # step-by-step tutorial
