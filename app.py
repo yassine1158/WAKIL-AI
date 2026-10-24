@@ -18,7 +18,8 @@ service = WakilService()
 def read_drawing(editor_value):
     """Gradio's Sketchpad gives {'background', 'layers', 'composite'}; the model needs the composite image."""
     image = editor_value.get("composite") if isinstance(editor_value, dict) else editor_value
-    return service.read_digit(image)
+    probabilities, seen, message = service.read_digit(image)
+    return probabilities, seen, message, seen          # the last output is remembered for "Teach"
 
 
 def build_app():
@@ -37,8 +38,21 @@ def build_app():
                     probabilities = gr.Label(label="Probabilities", num_top_classes=3)
                     seen = gr.Image(label="What the model sees (28x28)", height=140, width=140)
                     digit_message = gr.Markdown()
+            last_drawing = gr.State(None)                   # the 28x28 image of the last drawing read
             gr.Button("Read", variant="primary").click(
-                read_drawing, inputs=canvas, outputs=[probabilities, seen, digit_message])
+                read_drawing, inputs=canvas, outputs=[probabilities, seen, digit_message, last_drawing])
+
+            gr.Markdown("### 🎓 Teach Wakil AI\nWrong answer? Choose the right digit and click **Teach**: "
+                        "Wakil AI learns from your drawing right away (mixed with old examples so it doesn't "
+                        "forget, and a safety check cancels any update that hurts its MNIST accuracy).")
+            with gr.Row():
+                correct_digit = gr.Radio([str(d) for d in range(10)], label="The correct digit is")
+                with gr.Column():
+                    teach_button = gr.Button("Teach Wakil AI", variant="secondary")
+                    reset_button = gr.Button("Reset to the original model", size="sm")
+            teach_message = gr.Markdown()
+            teach_button.click(service.teach, inputs=[last_drawing, correct_digit], outputs=teach_message)
+            reset_button.click(service.reset_personal_model, outputs=teach_message)
 
         with gr.Tab("💬 Write text"):
             gr.Markdown("Type the beginning of a text (English, Shakespeare style). Wakil AI continues it, "

@@ -69,3 +69,49 @@ def test_write_continues_the_prompt_and_drops_unknown_characters(service_with_mo
 def test_info_describes_the_models(service_with_models):
     info = service_with_models.info()
     assert "784 -> 16 -> 10" in info and "MLP (Part 1)" in info and "from scratch" in info
+
+
+def test_teaching_learns_and_saves_a_personal_model(tmp_path):
+    rng = np.random.default_rng(0)
+    replay_X = rng.random((200, 784), dtype=np.float32)
+    replay_y = rng.integers(0, 10, 200)
+    model = WakilNet((784, 32, 10))
+    model.save(tmp_path / "wakil_ai_mnist.npz", {"architecture": "784 -> 32 -> 10"})
+    service = WakilService(models_dir=str(tmp_path), outputs_dir=str(tmp_path), data_dir=str(tmp_path),
+                           replay_data=(replay_X, replay_y, replay_X[:50], replay_y[:50]))
+    service.teacher = None
+    image = canvas_to_mnist_format(drawing())
+
+    message = service.teach(image, 3)
+    assert message.startswith("Learned!"), message
+    assert (tmp_path / "wakil_ai_mnist_personal.npz").exists() and (tmp_path / "my_digits.npz").exists()
+    probs = service.read_digit(drawing())[0]
+    assert max(probs, key=probs.get) == "3"
+
+    reloaded = WakilService(models_dir=str(tmp_path), outputs_dir=str(tmp_path), data_dir=str(tmp_path))
+    assert "personal version" in reloaded.info()
+    assert reloaded.reset_personal_model().startswith("Back to the original model")
+    assert not (tmp_path / "wakil_ai_mnist_personal.npz").exists()
+
+
+def test_teaching_needs_a_drawing_and_a_label(service_with_models):
+    assert "Read first" in service_with_models.teach(None, 3)
+    assert "Choose the correct digit" in service_with_models.teach(np.zeros((28, 28)), None)
+
+
+def test_safety_check_cancels_a_harmful_update(tmp_path):
+    from wakil_ai.continual import DigitTeacher
+    rng = np.random.default_rng(0)
+    centers = rng.random((10, 784), dtype=np.float32)
+    y = rng.integers(0, 10, 300)
+    X = (centers[y] + 0.05 * rng.standard_normal((300, 784))).astype(np.float32)   # an easy problem
+    model = WakilNet((784, 16, 10), seed=0)
+    for _ in range(100):
+        _, cache = model.forward(X)
+        model.update(model.backward(cache, np.eye(10, dtype=np.float32)[y]), 0.5)
+    teacher = DigitTeacher(model, X, y, X, y, store_path=str(tmp_path / "my.npz"))
+    before = {k: v.copy() for k, v in model.params.items()}
+    teacher.add_example(np.full(784, 255.0), 0)
+    report = teacher.learn(learning_rate=50.0)      # absurd learning rate: destroys the model
+    assert not report["accepted"]
+    assert all(np.array_equal(before[k], model.params[k]) for k in before)   # update was undone

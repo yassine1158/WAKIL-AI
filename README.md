@@ -30,11 +30,24 @@ python app.py                           # http://127.0.0.1:7860   (python app.py
 
 | Tab | What it does |
 |---|---|
-| ✍️ Read a digit | Draw a digit with the mouse (click 🖌️ Brush first); see the prediction, the probabilities, and the 28×28 image the model actually sees |
+| ✍️ Read a digit | Draw a digit with the mouse (click 🖌️ Brush first); see the prediction, the probabilities, and the 28×28 image the model actually sees; if it's wrong, **teach it** the right answer |
 | 💬 Write text | Type a beginning; pick the model (Transformer or MLP), length and temperature; Wakil AI continues it |
 | ℹ️ Models | Size, accuracy and loss of the trained models |
 
 The interface (`app.py`) only calls `wakil_ai/service.py`, which holds the application logic and is tested without any UI (`tests/test_service.py`). Drawings go through the same preprocessing as MNIST (crop, 20×20 box, centered by center of mass); on MNIST test digits rendered as 280×280 drawings, this pipeline keeps 98.1% accuracy. Real mouse drawings look different from MNIST, so expect more mistakes on them.
+
+### Wakil AI keeps learning from you (continual learning)
+
+When Wakil AI reads a drawing wrong, choose the right digit and click **Teach Wakil AI**. It learns immediately:
+
+1. Your drawing is saved in `data/my_digits.npz` (it stays on your computer).
+2. 40 gradient-descent steps on batches that mix **your drawings (8)** with **MNIST examples (24)**. This "replay" prevents *catastrophic forgetting*: training only on new examples would erase what the network knew.
+3. **Safety check:** accuracy is measured on 2,000 held-out MNIST images. If it dropped by more than 0.5 points, the update is cancelled.
+4. The result is saved as `models/wakil_ai_mnist_personal.npz`, so the original model is never overwritten (**Reset** goes back to it).
+
+Experiment (`wakil_ai/continual.py`): digits **rotated by 40°**, a style the model never saw. After learning from 50 corrections one at a time, accuracy on 1,000 *other* rotated digits rose from **58.8% to 72.9%**, while accuracy on normal MNIST digits stayed at **97.4%** (97.6% before).
+
+This is learning from human feedback, not "learning alone": the model still needs examples and the right answers.
 
 ## Results
 
@@ -89,7 +102,7 @@ python -m venv .venv
 # Windows: .venv\Scripts\activate      macOS/Linux: source .venv/bin/activate
 pip install -r requirements.txt
 
-python -m pytest              # 39 tests, ~2 seconds
+python -m pytest              # 42 tests, ~2 seconds
 python train.py               # downloads MNIST (11 MB) once, trains, saves models/wakil_ai_mnist.npz
 python evaluate.py            # test accuracy + figures in outputs/
 python predict.py --test-index 0 1 2
@@ -149,7 +162,8 @@ WAKIL-AI/
 │   ├── text_data.py          # text download, contiguous split, random context windows
 │   ├── language_model.py     # bigram baseline, CharMLP with embeddings, training, generation
 │   ├── transformer.py        # TinyGPT: attention, LayerNorm, blocks, Adam (forward + backward)
-│   └── service.py            # app logic: load models, read a drawing, write text (no UI code)
+│   ├── service.py            # app logic: load models, read a drawing, write text, teach (no UI code)
+│   └── continual.py          # continual learning from corrections: replay + safety check
 ├── train.py  evaluate.py  predict.py
 ├── train_lm.py  generate.py
 ├── app.py                    # the interface only (Gradio)
